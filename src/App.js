@@ -4,9 +4,11 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import { BLOCKS, MARKS } from '@contentful/rich-text-types';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import PostDetails from './PostDetails';
-import CheckoutForm from './CheckoutForm'; // Remember to create this file as instructed previously.
+import CheckoutForm from './CheckoutForm'; 
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
+import About from './About';  // Ensure the path is correct
+import { Helmet } from 'react-helmet';  // Import react-helmet
 
 const stripePromise = loadStripe("YOUR_PUBLIC_KEY");
 
@@ -42,6 +44,13 @@ function App() {
   return (
     <Router>
       <div className="container">
+
+        {/* React Helmet for Meta Tags */}
+        <Helmet>
+          <title>All things Basketball Analytics ~ Hoopsbot</title>
+          <meta name="description" content="Dive deep into the world of basketball analytics with Hoopsbot. Explore in-depth statistics, game insights, player performance metrics, and the latest trends shaping the court. Elevate your understanding of the game beyond the scoreboard." />
+        </Helmet>
+
         {/* Header */}
         <header className="d-flex justify-content-between align-items-center my-4">
           <Link to="/" className="text-decoration-none">
@@ -57,7 +66,7 @@ function App() {
               <Link to="/" className="nav-link">Blog</Link>
             </li>
             <li className="nav-item">
-              <Link to="#" className="nav-link">About</Link>
+              <Link to="/about" className="nav-link">About</Link>
             </li>
             <li className="nav-item">
               <Link to="#" className="nav-link">Contact</Link>
@@ -73,6 +82,7 @@ function App() {
           <Routes>
             <Route path="/post/:id" element={<PostDetails />} />
             <Route path="/checkout" element={<CheckoutForm />} />
+            <Route path="/about" element={<About />} />
             <Route path="/" element={
               <>
                 {/* Blog Posts */}
