@@ -7,7 +7,8 @@ import PostDetails from './PostDetails';
 import CheckoutForm from './CheckoutForm'; 
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
-import About from './About';  // Ensure the path is correct
+import About from './About'; 
+import Contact from './Contact';  
 import { Helmet } from 'react-helmet';
 import ReactGA4 from 'react-ga4';  // Your GA import
 
@@ -71,11 +72,11 @@ function MainContent() {
             <Link to="/about" className="nav-link">About</Link>
           </li>
           <li className="nav-item">
-            <Link to="#" className="nav-link">Contact</Link>
+            <Link to="/contact" className="nav-link">Contact</Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link to="/checkout" className="nav-link">Checkout</Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
 
@@ -84,6 +85,7 @@ function MainContent() {
           <Route path="/post/:id" element={<PostDetails />} />
           <Route path="/checkout" element={<CheckoutForm />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/" element={
             <>
               <main>

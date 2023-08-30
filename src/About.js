@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom'; 
 
 function About() {
   return (
@@ -13,6 +14,9 @@ function About() {
       <p>
         Hoopsbot is your go-to platform for the latest basketball news, stories, and updates. 
         Our mission is to provide fans with unparalleled insights into the world of basketball.
+      </p>
+      <p>
+      {/* <Link to="/checkout" className="nav-link">Checkout</Link> */}
       </p>
       {/* You can add more content or sections as needed */}
     </div>
