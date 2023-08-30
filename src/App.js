@@ -8,6 +8,7 @@ import CheckoutForm from './CheckoutForm';
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 import About from './About'; 
+import Calendar from './Calendar'; 
 import Contact from './Contact';  
 import { Helmet } from 'react-helmet';
 import ReactGA4 from 'react-ga4';  // Your GA import
@@ -72,6 +73,9 @@ function MainContent() {
             <Link to="/about" className="nav-link">About</Link>
           </li>
           <li className="nav-item">
+            <Link to="/calendar" className="nav-link">Calendar</Link>
+          </li>
+          <li className="nav-item">
             <Link to="/contact" className="nav-link">Contact</Link>
           </li>
           {/* <li className="nav-item">
@@ -86,6 +90,7 @@ function MainContent() {
           <Route path="/checkout" element={<CheckoutForm />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/calendar" element={<Calendar />} />
           <Route path="/" element={
             <>
               <main>
