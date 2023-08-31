@@ -11,6 +11,7 @@
 # production
 /build
 .env.local
+sitemap_generator.py
 
 # misc
 .DS_Store

@@ -11,7 +11,7 @@ import About from './About';
 import Calendar from './Calendar'; 
 import Contact from './Contact';  
 import { Helmet } from 'react-helmet';
-import ReactGA4 from 'react-ga4';  // Your GA import
+import ReactGA4 from 'react-ga4';
 
 const stripePromise = loadStripe("YOUR_PUBLIC_KEY");
 
@@ -20,11 +20,14 @@ function MainContent() {
   const location = useLocation();
 
   useEffect(() => {
-    client.getEntries({ content_type: 'blog' })
-      .then(response => {
-        setPosts(response.items);
-      })
-      .catch(console.error);
+    client.getEntries({
+      content_type: 'blog',
+      order: '-fields.published'
+    })
+    .then(response => {
+      setPosts(response.items);
+    })
+    .catch(console.error);
   }, []);
 
   useEffect(() => {
@@ -35,12 +38,12 @@ function MainContent() {
   const formatDate = (dateString) => {
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
     return new Date(dateString).toLocaleDateString(undefined, options);
-  }
+  };
 
   const options = {
     renderNode: {
       [BLOCKS.EMBEDDED_ASSET]: (node) => {
-        const { title, description, file } = node.data.target.fields;
+        const { title, file } = node.data.target.fields;
         const imageUrl = file.url;
         return <img src={`https:${imageUrl}`} alt={title ? title['en-US'] : null} className="img-fluid mb-3" />;
       },
@@ -54,7 +57,7 @@ function MainContent() {
     <div className="container">
       <Helmet>
         <title>All things Basketball Analytics ~ Hoopsbot</title>
-        <meta name="description" content="Dive deep into the world of basketball analytics with Hoopsbot. Explore in-depth statistics, game insights, player performance metrics, and the latest trends shaping the court. Elevate your understanding of the game beyond the scoreboard." />
+        <meta name="description" content="Dive deep into the world of basketball analytics with Hoopsbot." />
       </Helmet>
 
       <header className="d-flex justify-content-between align-items-center my-4">
@@ -78,15 +81,14 @@ function MainContent() {
           <li className="nav-item">
             <Link to="/contact" className="nav-link">Contact</Link>
           </li>
-          {/* <li className="nav-item">
-            <Link to="/checkout" className="nav-link">Checkout</Link>
-          </li> */}
         </ul>
       </nav>
 
       <Elements stripe={stripePromise}>
         <Routes>
-          <Route path="/post/:id" element={<PostDetails />} />
+          {posts.map((post) => (
+            <Route path={post.fields.postUrl} key={post.sys.id} element={<PostDetails id={post.sys.id} />} />
+          ))}
           <Route path="/checkout" element={<CheckoutForm />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
@@ -96,7 +98,15 @@ function MainContent() {
               <main>
                 {posts.map(post => (
                   <div key={post.sys.id} className="mb-5">
-                    <Link to={`/post/${post.sys.id}`} className="text-decoration-none text-dark">
+                    <Link to={post.fields.postUrl} className="text-decoration-none text-dark">
+                      {post.fields.postImage &&
+                        <img
+                          src={post.fields.postImage.fields.file.url}
+                          alt={post.fields.postImage.fields.description || ''}
+                          style={{ maxWidth: '600px' }}
+                          className="img-fluid mb-3"
+                        />
+                      }
                       <h2>{post.fields.title}</h2>
                     </Link>
                     {documentToReactComponents(post.fields.body, options)}
