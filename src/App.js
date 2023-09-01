@@ -10,6 +10,8 @@ import { loadStripe } from "@stripe/stripe-js";
 import About from './About'; 
 import Calendar from './Calendar'; 
 import Contact from './Contact';  
+import WNBA from './WNBA';
+import BasketballAnalytics from './BasketballAnalytics';
 import { Helmet } from 'react-helmet';
 import ReactGA4 from 'react-ga4';
 
@@ -81,6 +83,13 @@ function MainContent() {
           <li className="nav-item">
             <Link to="/contact" className="nav-link">Contact</Link>
           </li>
+          <li className="nav-item">
+            <Link to="/wnba" className="nav-link">WNBA</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/BasketballAnalytics" className="nav-link">BasketballAnalytics</Link>
+          </li>
+
         </ul>
       </nav>
 
@@ -93,6 +102,8 @@ function MainContent() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/calendar" element={<Calendar />} />
+          <Route path="/wnba" element={<WNBA />} />
+          <Route path="/BasketballAnalytics" element={<BasketballAnalytics />} />
           <Route path="/" element={
             <>
               <main>
