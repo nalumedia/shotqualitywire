@@ -130,9 +130,11 @@ function MainContent() {
         </Routes>
       </Elements>
 
-      <footer className="mt-5">
-        <p>© 2023 Hoopsbot. All rights reserved.</p>
+      <footer className="mt-5 d-flex justify-content-between align-items-center">
+          <p>© 2023 Hoopsbot. All rights reserved.</p>
+          <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer">Sitemap</a>
       </footer>
+
     </div>
   );
 }
