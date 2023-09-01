@@ -2,5 +2,5 @@
   from = "/*"
   to = "/index.html"
   status = 200
-  conditions = {UserAgent = "googlebot|bingbot|yandex|baiduspider|twitterbot|facebookexternalhit|rogerbot|linkedinbot|embedly|quora link preview|showyoubot|outbrain|pinterest|slackbot|vkShare|W3C_Validator"}
-  headers = {X-Prerender = "true"}
+  conditions = {UserAgent = "googlebot,bingbot,yandex"}
+  force = true
