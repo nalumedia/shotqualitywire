@@ -12,6 +12,7 @@ import Calendar from './Calendar';
 import Contact from './Contact';  
 import WNBA from './WNBA';
 import BasketballAnalytics from './BasketballAnalytics';
+import CountdownTimer from './CountdownTimer';
 import { Helmet } from 'react-helmet';
 import ReactGA4 from 'react-ga4';
 
@@ -63,11 +64,13 @@ function MainContent() {
       </Helmet>
 
       <header className="d-flex justify-content-between align-items-center my-4">
-        <Link to="/" className="text-decoration-none">
-          <h1 className="logo">Hoopsbot 🏀🤖</h1>
-        </Link>
-        <input type="text" placeholder="Search..." className="form-control w-50" />
+          <Link to="/" className="text-decoration-none">
+              <h1 className="logo">Hoopsbot 🏀🤖</h1>
+          </Link>
+          <CountdownTimer />
+          {/* <input type="text" placeholder="Search..." className="form-control w-50" /> */}
       </header>
+
 
       <nav className="mb-5">
         <ul className="nav">
