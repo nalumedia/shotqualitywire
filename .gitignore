@@ -12,6 +12,7 @@
 /build
 .env.local
 sitemap_generator.py
+odds_generator.py
 
 # misc
 .DS_Store

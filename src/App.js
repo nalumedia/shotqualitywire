@@ -14,6 +14,7 @@ import WNBA from './WNBA';
 import BasketballAnalytics from './BasketballAnalytics';
 import CountdownTimer from './CountdownTimer';
 import { Helmet } from 'react-helmet';
+import OddsPage from './OddsPage';
 import ReactGA4 from 'react-ga4';
 
 const stripePromise = loadStripe("YOUR_PUBLIC_KEY");
@@ -90,6 +91,10 @@ function MainContent() {
           <li className="nav-item">
             <Link to="/BasketballAnalytics" className="nav-link">BasketballAnalytics</Link>
           </li>
+          <li className="nav-item">
+          <Link to="/odds" className="nav-link">Odds</Link>
+          </li>
+
         </ul>
       </nav>
 
@@ -104,6 +109,7 @@ function MainContent() {
           <Route path="/calendar" element={<Calendar />} />
           <Route path="/wnba" element={<WNBA />} />
           <Route path="/BasketballAnalytics" element={<BasketballAnalytics />} />
+          <Route path="/odds" element={<OddsPage />} />
           <Route path="/" element={
             <>
               <main>

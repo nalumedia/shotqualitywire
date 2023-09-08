@@ -37,7 +37,9 @@ function PostDetail({ id }) { // Destructure the id prop
       <Helmet>
         <title>{post.fields.metaTitle || post.fields.title}</title>  {/* Use metaTitle if available, fallback to post title */}
         {post.fields.metaDescription && <meta name="description" content={post.fields.metaDescription} />} {/* Set meta description if available */}
+        <link rel="canonical" href={`https://hoopsbot.com${post.fields.postUrl}`} />
       </Helmet>
+
 
       {post.fields.postImage &&
         <img
