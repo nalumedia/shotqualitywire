@@ -68,9 +68,7 @@ function MainContent() {
               <h1 className="logo">Hoopsbot 🏀🤖</h1>
           </Link>
           <CountdownTimer />
-          {/* <input type="text" placeholder="Search..." className="form-control w-50" /> */}
       </header>
-
 
       <nav className="mb-5">
         <ul className="nav">
@@ -92,7 +90,6 @@ function MainContent() {
           <li className="nav-item">
             <Link to="/BasketballAnalytics" className="nav-link">BasketballAnalytics</Link>
           </li>
-
         </ul>
       </nav>
 
@@ -137,7 +134,6 @@ function MainContent() {
           <p>© 2023 Hoopsbot. All rights reserved.</p>
           <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer">Sitemap</a>
       </footer>
-
     </div>
   );
 }
