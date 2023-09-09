@@ -23,7 +23,9 @@ static_routes = [{'url': '/', 'lastmod': most_recent_lastmod},
                  {'url': '/calendar', 'lastmod': most_recent_lastmod},
                  {'url': '/contact', 'lastmod': most_recent_lastmod},
                  {'url': '/wnba', 'lastmod': most_recent_lastmod},
+                   {'url': '/odds', 'lastmod': most_recent_lastmod},
                  {'url': '/BasketballAnalytics', 'lastmod': most_recent_lastmod}]
+               
 
 # All routes (static + dynamic)
 all_routes = static_routes + posts
