@@ -17,31 +17,37 @@ const OddsPage = () => {
         });
     }, []);
 
+    const has_odds = false; // Set this to true or false manually
+
     return (
         <div>
             <h1>Projected Scores</h1>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Date</th>
-                        <th>Match</th>
-                        <th>Projected Score</th>
-                        <th>Winner</th>
-                        <th>Wins By</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {data.map((row, index) => (
-                        <tr key={index}>
-                        <td>{row.Date}</td>
-                        <td>{row.Match}</td>
-                        <td>{row["Projected Score"]}</td>
-                        <td>{row.Winner}</td>
-                        <td>{row["Wins By"]}</td>
+            {has_odds ? (
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Match</th>
+                            <th>Projected Score</th>
+                            <th>Winner</th>
+                            <th>Wins By</th>
                         </tr>
-                    ))}
+                    </thead>
+                    <tbody>
+                        {data.map((row, index) => (
+                            <tr key={index}>
+                                <td>{row.Date}</td>
+                                <td>{row.Match}</td>
+                                <td>{row["Projected Score"]}</td>
+                                <td>{row.Winner}</td>
+                                <td>{row["Wins By"]}</td>
+                            </tr>
+                        ))}
                     </tbody>
-            </table>
+                </table>
+            ) : (
+                <p>Sorry, there are no upcoming games available.</p>
+            )}
         </div>
     );
 };

@@ -7,6 +7,9 @@ function Contact() {
       <Helmet>
         <title>Contact - Hoopsbot Blog 🏀🤖</title>
         <meta name="description" content="Contact Hoopsbot" />
+        <link rel="canonical" href="https://hoopsbot.com/contact" />
+
+        
       </Helmet>
 
       <h2>Contact Hoopsbot</h2>

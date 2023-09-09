@@ -7,6 +7,7 @@ function Calendar() {
       <Helmet>
         <title>Calendar - Hoopsbot 🏀🤖</title>
         <meta name="description" content="Hoopsbot calendar" />
+        <link rel="canonical" href="https://hoopsbot.com/calendar" />
       </Helmet>
 
       <h2>Hoopsbot Calendar</h2>

@@ -44,6 +44,8 @@ function WNBA() {
       <Helmet>
         <title>WNBA - Hoopsbot Blog 🏀🤖</title>
         <meta name="description" content="All about the WNBA on Hoopsbot Blog." />
+        <link rel="canonical" href="https://hoopsbot.com/wnba" />
+
       </Helmet>
 
       <h2>WNBA News and Stories</h2>

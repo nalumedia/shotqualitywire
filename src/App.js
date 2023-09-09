@@ -57,6 +57,26 @@ function MainContent() {
     },
   };
 
+  function truncateWords(text, limit) {
+    const words = text.split(/\s+/).slice(0, limit);
+    return words.join(' ') + (words.length < text.split(/\s+/).length ? '...' : '');
+  }
+
+  function richTextToPlainText(richText) {
+    if (!richText || !richText.content) return '';
+
+    let text = '';
+    richText.content.forEach(item => {
+      if (item.nodeType === 'text') {
+        text += item.value;
+      } else if (item.content) {
+        text += richTextToPlainText(item);
+      }
+    });
+    
+    return text;
+  }
+
   return (
     <div className="container">
       <Helmet>
@@ -65,10 +85,10 @@ function MainContent() {
       </Helmet>
 
       <header className="d-flex justify-content-between align-items-center my-4">
-          <Link to="/" className="text-decoration-none">
-              <h1 className="logo">Hoopsbot 🏀🤖</h1>
-          </Link>
-          <CountdownTimer />
+        <Link to="/" className="text-decoration-none">
+            <h1 className="logo">Hoopsbot 🏀🤖</h1>
+        </Link>
+        <CountdownTimer />
       </header>
 
       <nav className="mb-5">
@@ -92,9 +112,8 @@ function MainContent() {
             <Link to="/BasketballAnalytics" className="nav-link">BasketballAnalytics</Link>
           </li>
           <li className="nav-item">
-          <Link to="/odds" className="nav-link">Odds</Link>
+            <Link to="/odds" className="nav-link">Odds</Link>
           </li>
-
         </ul>
       </nav>
 
@@ -113,23 +132,31 @@ function MainContent() {
           <Route path="/" element={
             <>
               <main>
-                {posts.map(post => (
-                  <div key={post.sys.id} className="mb-5">
-                    <Link to={post.fields.postUrl} className="text-decoration-none text-dark">
-                      {post.fields.postImage &&
-                        <img
-                          src={post.fields.postImage.fields.file.url}
-                          alt={post.fields.postImage.fields.description || ''}
-                          style={{ maxWidth: '600px' }}
-                          className="img-fluid mb-3"
-                        />
-                      }
-                      <h2>{post.fields.title}</h2>
-                    </Link>
-                    {documentToReactComponents(post.fields.body, options)}
-                    <p><strong>Published on:</strong> {formatDate(post.fields.published)}</p>
-                  </div>
-                ))}
+                <div className="row">
+                  {posts.map(post => (
+                    <div key={post.sys.id} className="col-md-4 mb-5">
+                      <div className="card">
+                        <Link to={post.fields.postUrl}>
+                          {post.fields.postImage &&
+                            <img
+                              src={post.fields.postImage.fields.file.url}
+                              alt={post.fields.postImage.fields.description || ''}
+                              className="card-img-top"
+                            />
+                          }
+                        </Link>
+                        <div className="card-body">
+                          <Link to={post.fields.postUrl} className="text-decoration-none text-dark">
+                            <h5 className="card-title">{post.fields.title}</h5>
+                          </Link>
+                          <p>{truncateWords(richTextToPlainText(post.fields.body), 25)}</p>
+                          <p><strong>Published on:</strong> {formatDate(post.fields.published)}</p>
+                          <Link to={post.fields.postUrl} className="card-link">Read more</Link>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </main>
             </>
           } />
@@ -137,8 +164,8 @@ function MainContent() {
       </Elements>
 
       <footer className="mt-5 d-flex justify-content-between align-items-center">
-          <p>© 2023 Hoopsbot. All rights reserved.</p>
-          <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer">Sitemap</a>
+        <p>© 2023 Hoopsbot. All rights reserved.</p>
+        <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer">Sitemap</a>
       </footer>
     </div>
   );
