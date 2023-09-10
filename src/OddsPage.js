@@ -17,7 +17,7 @@ const OddsPage = () => {
         });
     }, []);
 
-    const has_odds = false; // Set this to true or false manually
+    const has_odds = true; // Set this to true or false manually
 
     return (
         <div>
