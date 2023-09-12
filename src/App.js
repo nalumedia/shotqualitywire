@@ -16,6 +16,7 @@ import CountdownTimer from './CountdownTimer';
 import { Helmet } from 'react-helmet';
 import OddsPage from './OddsPage';
 import ReactGA4 from 'react-ga4';
+import AuthorPosts from './AuthorPosts'; // Add this to your imports
 
 const stripePromise = loadStripe("YOUR_PUBLIC_KEY");
 
@@ -26,7 +27,8 @@ function MainContent() {
   useEffect(() => {
     client.getEntries({
       content_type: 'blog',
-      order: '-fields.published'
+      order: '-fields.published',
+      include: 2  // fetch linked entries up to 2 levels deep
     })
     .then(response => {
       setPosts(response.items);
@@ -129,6 +131,7 @@ function MainContent() {
           <Route path="/wnba" element={<WNBA />} />
           <Route path="/BasketballAnalytics" element={<BasketballAnalytics />} />
           <Route path="/odds" element={<OddsPage />} />
+          <Route path="/author/:authorId" element={<AuthorPosts />} />
           <Route path="/" element={
             <>
               <main>
@@ -151,6 +154,20 @@ function MainContent() {
                           </Link>
                           <p>{truncateWords(richTextToPlainText(post.fields.body), 25)}</p>
                           <p><strong>Published on:</strong> {formatDate(post.fields.published)}</p>
+                          {post.fields.blogAuthor && (
+                            <div className="d-flex align-items-center mt-2">
+                              <img
+                                src={post.fields.blogAuthor.fields.authorImage.fields.file.url}
+                                alt={post.fields.blogAuthor.fields.name}
+                                style={{ width: '40px', height: '40px', borderRadius: '50%' }}
+                              />
+                              <span className="ml-2">
+                                <Link to={`/author/${post.fields.blogAuthor.sys.id}`}>
+                                  {post.fields.blogAuthor.fields.name}
+                                </Link>
+                              </span>
+                            </div>
+                          )}
                           <Link to={post.fields.postUrl} className="card-link">Read more</Link>
                         </div>
                       </div>
