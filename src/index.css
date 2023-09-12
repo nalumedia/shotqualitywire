@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: #333; /* This will make the text darker, you can adjust the color value as needed */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #555; /* This will change the color slightly on hover, you can adjust this value as well */
+}

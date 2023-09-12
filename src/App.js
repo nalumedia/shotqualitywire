@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import client from './Contentful';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
-import { BLOCKS, MARKS } from '@contentful/rich-text-types';
 import { BrowserRouter as Router, Route, Link, Routes, useLocation } from 'react-router-dom';
 import PostDetails from './PostDetails';
 import CheckoutForm from './CheckoutForm'; 
@@ -16,7 +15,10 @@ import CountdownTimer from './CountdownTimer';
 import { Helmet } from 'react-helmet';
 import OddsPage from './OddsPage';
 import ReactGA4 from 'react-ga4';
-import AuthorPosts from './AuthorPosts'; // Add this to your imports
+import AuthorPosts from './AuthorPosts';
+
+// Importing the required functions from helpers.js
+import { formatDate, options, truncateWords, richTextToPlainText } from './helpers';
 
 const stripePromise = loadStripe("YOUR_PUBLIC_KEY");
 
@@ -41,44 +43,6 @@ function MainContent() {
     ReactGA4.send('pageview');
   }, [location]);
 
-  const formatDate = (dateString) => {
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return new Date(dateString).toLocaleDateString(undefined, options);
-  };
-
-  const options = {
-    renderNode: {
-      [BLOCKS.EMBEDDED_ASSET]: (node) => {
-        const { title, file } = node.data.target.fields;
-        const imageUrl = file.url;
-        return <img src={`https:${imageUrl}`} alt={title ? title['en-US'] : null} className="img-fluid mb-3" />;
-      },
-    },
-    renderMark: {
-      [MARKS.BOLD]: text => <strong>{text}</strong>,
-    },
-  };
-
-  function truncateWords(text, limit) {
-    const words = text.split(/\s+/).slice(0, limit);
-    return words.join(' ') + (words.length < text.split(/\s+/).length ? '...' : '');
-  }
-
-  function richTextToPlainText(richText) {
-    if (!richText || !richText.content) return '';
-
-    let text = '';
-    richText.content.forEach(item => {
-      if (item.nodeType === 'text') {
-        text += item.value;
-      } else if (item.content) {
-        text += richTextToPlainText(item);
-      }
-    });
-    
-    return text;
-  }
-
   return (
     <div className="container">
       <Helmet>
@@ -86,37 +50,41 @@ function MainContent() {
         <meta name="description" content="Dive deep into the world of basketball analytics with Hoopsbot." />
       </Helmet>
 
-      <header className="d-flex justify-content-between align-items-center my-4">
+      {/* <header className="d-flex justify-content-between align-items-center my-4">
         <Link to="/" className="text-decoration-none">
             <h1 className="logo">Hoopsbot 🏀🤖</h1>
         </Link>
         <CountdownTimer />
-      </header>
+      </header> */}
 
-      <nav className="mb-5">
-        <ul className="nav">
-          <li className="nav-item">
-            <Link to="/" className="nav-link">Blog</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/about" className="nav-link">About</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/calendar" className="nav-link">Calendar</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/contact" className="nav-link">Contact</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/wnba" className="nav-link">WNBA</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/BasketballAnalytics" className="nav-link">BasketballAnalytics</Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/odds" className="nav-link">Odds</Link>
-          </li>
-        </ul>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light mb-5">
+        <Link className="navbar-brand" to="/">Hoopsbot 🏀🤖</Link>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item">
+              <Link to="/BasketballAnalytics" className="nav-link">📊 Basketball Analytics</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/calendar" className="nav-link">🗓️ 2023-24 Basketball Calendar</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/wnba" className="nav-link">🏀 WNBA Basketball Analysis</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/odds" className="nav-link">🤑 Basketball Odds</Link>
+            </li>
+          </ul>
+          {/* Uncomment this section when you want to enable search */}
+          {/* 
+          <form className="form-inline my-2 my-lg-0">
+            <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          */}
+        </div>
       </nav>
 
       <Elements stripe={stripePromise}>
@@ -135,6 +103,7 @@ function MainContent() {
           <Route path="/" element={
             <>
               <main>
+              <CountdownTimer />
                 <div className="row">
                   {posts.map(post => (
                     <div key={post.sys.id} className="col-md-4 mb-5">
@@ -152,8 +121,10 @@ function MainContent() {
                           <Link to={post.fields.postUrl} className="text-decoration-none text-dark">
                             <h5 className="card-title">{post.fields.title}</h5>
                           </Link>
-                          <p>{truncateWords(richTextToPlainText(post.fields.body), 25)}</p>
-                          <p><strong>Published on:</strong> {formatDate(post.fields.published)}</p>
+                          <p>{truncateWords(richTextToPlainText(post.fields.body), 25)}
+                          <br /><Link to={post.fields.postUrl} className="card-link">> More</Link></p>
+                          
+                          <p>{formatDate(post.fields.published)}</p>
                           {post.fields.blogAuthor && (
                             <div className="d-flex align-items-center mt-2">
                               <img
@@ -168,7 +139,7 @@ function MainContent() {
                               </span>
                             </div>
                           )}
-                          <Link to={post.fields.postUrl} className="card-link">Read more</Link>
+                          
                         </div>
                       </div>
                     </div>

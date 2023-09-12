@@ -23,8 +23,8 @@ const OddsPage = () => {
         <div>
             <h1>Projected Scores</h1>
             {has_odds ? (
-                <table>
-                    <thead>
+                <table className="table table-bordered table-hover">
+                    <thead className="thead-light">
                         <tr>
                             <th>Date</th>
                             <th>Match</th>
