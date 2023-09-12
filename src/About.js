@@ -6,14 +6,13 @@ function About() {
   return (
     <div>
       <Helmet>
-        <title>About - Hoopsbot Blog 🏀🤖</title>
+        <title>About</title>
         <meta name="description" content="Learn more about Hoopsbot and our mission to provide the best basketball content." />
       </Helmet>
 
-      <h2>About Hoopsbot</h2>
+      <h2>About</h2>
       <p>
-        Hoopsbot is your go-to platform for the latest basketball news, stories, and updates. 
-        Our mission is to provide fans with unparalleled insights into the world of basketball.
+        ShotQuality wire helps you win more
       </p>
       <p>
       {/* <Link to="/checkout" className="nav-link">Checkout</Link> */}

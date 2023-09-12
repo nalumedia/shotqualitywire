@@ -46,19 +46,19 @@ function MainContent() {
   return (
     <div className="container">
       <Helmet>
-        <title>All things Basketball Analytics ~ Hoopsbot</title>
-        <meta name="description" content="Dive deep into the world of basketball analytics with Hoopsbot." />
+        <title>ShotQualityWire - Win More</title>
+        <meta name="description" content="Basketball news, analysis, analytics, and predictions powered by the best data in basketball." />
       </Helmet>
 
       {/* <header className="d-flex justify-content-between align-items-center my-4">
         <Link to="/" className="text-decoration-none">
-            <h1 className="logo">Hoopsbot 🏀🤖</h1>
+            <h1 className="logo">ShotQualityWire</h1>
         </Link>
         <CountdownTimer />
       </header> */}
 
       <nav className="navbar navbar-expand-lg navbar-light bg-light mb-5">
-        <Link className="navbar-brand" to="/">Hoopsbot 🏀🤖</Link>
+        <Link className="navbar-brand" to="/">ShotQualityWire</Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -67,7 +67,7 @@ function MainContent() {
             <li className="nav-item">
               <Link to="/BasketballAnalytics" className="nav-link">📊 Basketball Analytics</Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="/calendar" className="nav-link">🗓️ 2023-24 Basketball Calendar</Link>
             </li>
             <li className="nav-item">
@@ -75,7 +75,7 @@ function MainContent() {
             </li>
             <li className="nav-item">
               <Link to="/odds" className="nav-link">🤑 Basketball Odds</Link>
-            </li>
+            </li> */}
           </ul>
           {/* Uncomment this section when you want to enable search */}
           {/* 

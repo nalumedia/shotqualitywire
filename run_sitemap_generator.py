@@ -3,8 +3,8 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 
 # Your Contentful Space ID and Access Token
-SPACE_ID = 'qzwnil1y1qss'
-ACCESS_TOKEN = 'Fpiwp5bs5R4-7kThDg0eJZemA_gDfBVkUHADoF1qlxg'
+SPACE_ID = 'z3p5u8zjlu6y'
+ACCESS_TOKEN = 'BSnHYPTE-ndLC2oSrhu6cSdMeK9Ay45QQ0tCj9bz9a0'
 
 # Contentful API URL to fetch blog posts
 CONTENTFUL_URL = f'https://cdn.contentful.com/spaces/{SPACE_ID}/environments/master/entries?access_token={ACCESS_TOKEN}&content_type=blog'
@@ -36,7 +36,7 @@ urlset = ET.Element('urlset', xmlns="http://www.sitemaps.org/schemas/sitemap/0.9
 for route in all_routes:
     url = ET.SubElement(urlset, 'url')
     loc = ET.SubElement(url, 'loc')
-    loc.text = f"https://hoopsbot.com{route['url']}"
+    loc.text = f"https://shotqualitywire.com{route['url']}"
     
     # Include lastmod if available
     if route['lastmod']:

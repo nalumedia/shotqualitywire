@@ -42,12 +42,12 @@ function BasketballAnalytics() {
   return (
     <div>
       <Helmet>
-        <title>WNBA - Hoopsbot Blog 🏀🤖</title>
+        <title>ShotQualityWire - Basketball Analytics</title>
         <meta name="description" content="All about the WNBA on Hoopsbot Blog." />
         <link rel="canonical" href="https://hoopsbot.com/BasketballAnalytics" />
       </Helmet>
 
-      <h2>WNBA News and Stories</h2>
+      <h2>Basketball Analytics</h2>
 
       {posts.map(post => (
         <div key={post.sys.id} className="mb-5">

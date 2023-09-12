@@ -43,37 +43,40 @@ function PostDetail({ id }) {
 
     if (!post) return <div>Loading...</div>;
 
-    const author = post.fields.blogAuthor;
+    const author = post.fields ? post.fields.blogAuthor : null;
 
     return (
         <div className="container mt-5">
             <Helmet>
-                <title>{post.fields.metaTitle || post.fields.title}</title>
-                {post.fields.metaDescription && <meta name="description" content={post.fields.metaDescription} />}
-                <link rel="canonical" href={`https://hoopsbot.com${post.fields.postUrl}`} />
+                <title>{post.fields?.metaTitle || post.fields?.title}</title>
+                {post.fields?.metaDescription && <meta name="description" content={post.fields.metaDescription} />}
+                <link rel="canonical" href={`https://hoopsbot.com${post.fields?.postUrl}`} />
             </Helmet>
 
             <div className="row">
                 <div className="col-md-8">
-                {post.fields.postImage &&
-                  <img
-                      src={post.fields.postImage.fields.file.url}
-                      alt={post.fields.postImage.fields.description || ''}
-                      className="img-fluid mb-3"
-                  />
-              }
-
-                    <h2>{post.fields.title}</h2>
-                    <p className="text-muted">Posted at: {new Date(post.sys.createdAt).toLocaleDateString()}</p>
-                    <div className="d-flex align-items-center mb-4">
+                    {post.fields?.postImage && (
                         <img
-                            src={author.fields.authorImage.fields.file.url}
-                            alt={author.fields.name}
-                            style={{ width: '50px', height: '50px', borderRadius: '50%', marginRight: '15px' }}
+                            src={post.fields.postImage.fields.file.url}
+                            alt={post.fields.postImage.fields.description || ''}
+                            className="img-fluid mb-3"
                         />
-                        <Link to={`/author/${author.sys.id}`}>{author.fields.name}</Link>
+                    )}
+                    {post.fields && <h2>{post.fields.title}</h2>}
+                    {post.sys && <p className="text-muted">Posted at: {new Date(post.sys.createdAt).toLocaleDateString()}</p>}
+                    <div className="d-flex align-items-center mb-4">
+                        {author && author.fields && (
+                            <>
+                                <img
+                                    src={author.fields.authorImage.fields.file.url}
+                                    alt={author.fields.name}
+                                    style={{ width: '50px', height: '50px', borderRadius: '50%', marginRight: '15px' }}
+                                />
+                                <Link to={`/author/${author.sys.id}`}>{author.fields.name}</Link>
+                            </>
+                        )}
                     </div>
-                    {documentToReactComponents(post.fields.body, options)}
+                    {post.fields && documentToReactComponents(post.fields.body, options)}
                 </div>
                 <div className="col-md-4">
                     <h4 className="mb-4">Recent Posts</h4>
