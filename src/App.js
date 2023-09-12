@@ -39,7 +39,7 @@ function MainContent() {
   }, []);
 
   useEffect(() => {
-    ReactGA4.initialize('G-80L7YYXV7R');
+    ReactGA4.initialize('G-Y7Y5QEKM7Q');  // New Measurement ID
     ReactGA4.send('pageview');
   }, [location]);
 
@@ -67,15 +67,16 @@ function MainContent() {
             <li className="nav-item">
               <Link to="/BasketballAnalytics" className="nav-link">📊 Basketball Analytics</Link>
             </li>
+            <li className="nav-item">
+              <Link to="/odds" className="nav-link">🤑 Basketball Odds</Link>
+            </li>
             {/* <li className="nav-item">
               <Link to="/calendar" className="nav-link">🗓️ 2023-24 Basketball Calendar</Link>
             </li>
             <li className="nav-item">
               <Link to="/wnba" className="nav-link">🏀 WNBA Basketball Analysis</Link>
             </li>
-            <li className="nav-item">
-              <Link to="/odds" className="nav-link">🤑 Basketball Odds</Link>
-            </li> */}
+           */}
           </ul>
           {/* Uncomment this section when you want to enable search */}
           {/* 
@@ -152,7 +153,7 @@ function MainContent() {
       </Elements>
 
       <footer className="mt-5 d-flex justify-content-between align-items-center">
-        <p>© 2023 Hoopsbot. All rights reserved.</p>
+        <p>© 2023 ShotQualityWire. All rights reserved.</p>
         <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer">Sitemap</a>
       </footer>
     </div>
