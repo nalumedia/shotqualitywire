@@ -17,6 +17,9 @@ import OddsPage from './OddsPage';
 import ReactGA4 from 'react-ga4';
 import AuthorPosts from './AuthorPosts';
 import WNBABettingAnalysis from './WNBABettingAnalysis';
+import WinningMetricsGlossary from './WinningMetricsGlossary.js';
+import WinningMetricDetails from './WinningMetricDetails';
+
 
 // Importing the required functions from helpers.js
 import { formatDate, options, truncateWords, richTextToPlainText } from './helpers';
@@ -75,6 +78,9 @@ function MainContent() {
             <li className="nav-item">
               <Link to="/wnba-betting-analysis" className="nav-link">📊 WNBA Betting Analysis</Link>
             </li>
+            <li className="nav-item">
+              <Link to="/winningmetricsglossary" className="nav-link">📊 Winning Metrics Glossary</Link>
+            </li>
             {/* <li className="nav-item">
               <Link to="/calendar" className="nav-link">🗓️ 2023-24 Basketball Calendar</Link>
             </li>
@@ -107,6 +113,8 @@ function MainContent() {
           <Route path="/odds" element={<OddsPage />} />
           <Route path="/author/:authorId" element={<AuthorPosts />} />
           <Route path="/wnba-betting-analysis" element={<WNBABettingAnalysis />} />
+          <Route path="/winningmetricsglossary" element={<WinningMetricsGlossary />} />
+          <Route path="/winningmetric/:id" element={<WinningMetricDetails />} />
           <Route path="/" element={
             <>
               <main>

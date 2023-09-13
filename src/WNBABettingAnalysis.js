@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import client from './Contentful';  // Make sure to import your Contentful client
+import { Helmet } from 'react-helmet';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 
 const WNBABettingAnalysis = () => {
@@ -8,7 +9,8 @@ const WNBABettingAnalysis = () => {
   useEffect(() => {
     client.getEntries({
       content_type: 'winningMetrics',
-      'fields.targetSite[in]': 'ShotQualityWire'  // Filter by TargetSite
+      'fields.targetSite[in]': 'ShotQualityWire',  // Filter by TargetSite
+      'fields.targetPage': 'BettingAnalysis'  // Filter by TargetPage
     })
     .then(response => {
       setWinningMetrics(response.items);
@@ -33,6 +35,11 @@ const WNBABettingAnalysis = () => {
 
   return (
     <div className="container mt-5">
+        <Helmet>
+        <title>ShotQualityWire - WNBA Betting Analysis</title>
+        <meta name="description" content="WNBA Basketball Betting Analysis" />
+        <link rel="canonical" href="https://shotqualitywire.com/BasketballAnalytics" />
+      </Helmet>
       <h1>WNBA Betting Analysis</h1>
       
       {/* Table Section */}
