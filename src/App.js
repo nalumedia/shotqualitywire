@@ -20,6 +20,8 @@ import WNBABettingAnalysis from './WNBABettingAnalysis';
 import WinningMetricsGlossary from './WinningMetricsGlossary.js';
 import WinningMetricDetails from './WinningMetricDetails';
 import WNBATeamStandings from './WNBATeamStandings';
+import FooterEmailCaptureForm from './FooterEmailCaptureForm';
+
 
 
 
@@ -187,6 +189,7 @@ function MainContent() {
       </Elements>
 
       <footer className="mt-5 d-flex justify-content-between align-items-center">
+      <FooterEmailCaptureForm /> 
         <p>© 2023 ShotQualityWire. All rights reserved.</p>
         <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer">Sitemap</a>
       </footer>
