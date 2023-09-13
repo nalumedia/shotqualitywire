@@ -5,11 +5,13 @@
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^15.17.1",
     "@contentful/rich-text-types": "^16.2.1",
+    "@sendgrid/mail": "^7.7.0",
     "@stripe/react-stripe-js": "^2.1.2",
     "@stripe/stripe-js": "^2.1.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.5.0",
     "contentful": "^10.4.2",
     "papaparse": "^5.4.1",
     "react": "^18.2.0",

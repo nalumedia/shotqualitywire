@@ -19,6 +19,8 @@ import AuthorPosts from './AuthorPosts';
 import WNBABettingAnalysis from './WNBABettingAnalysis';
 import WinningMetricsGlossary from './WinningMetricsGlossary.js';
 import WinningMetricDetails from './WinningMetricDetails';
+import WNBATeamStandings from './WNBATeamStandings';
+
 
 
 // Importing the required functions from helpers.js
@@ -35,10 +37,12 @@ function MainContent() {
       content_type: 'blog',
       'fields.targetSite': 'ShotQualityWire', // add this line to filter by targetSite
       order: '-fields.published',
-      include: 2  // fetch linked entries up to 2 levels deep
+      include: 3  // fetch linked entries up to 2 levels deep
     })
     .then(response => {
       setPosts(response.items);
+      console.log("Fetched posts' winningMetrics: ", response.items.map(item => item.fields.winningMetricsIn));
+
     })
     .catch(console.error);
   }, []);
@@ -81,6 +85,10 @@ function MainContent() {
             <li className="nav-item">
               <Link to="/winningmetricsglossary" className="nav-link">📊 Winning Metrics Glossary</Link>
             </li>
+            <li className="nav-item">
+              <Link to="/wnbateamstandings" className="nav-link">🏀 WNBA Team Standings</Link>
+            </li>
+
             {/* <li className="nav-item">
               <Link to="/calendar" className="nav-link">🗓️ 2023-24 Basketball Calendar</Link>
             </li>
@@ -114,6 +122,7 @@ function MainContent() {
           <Route path="/author/:authorId" element={<AuthorPosts />} />
           <Route path="/wnba-betting-analysis" element={<WNBABettingAnalysis />} />
           <Route path="/winningmetricsglossary" element={<WinningMetricsGlossary />} />
+          <Route path="/wnbateamstandings" element={<WNBATeamStandings />} />
           <Route path="/winningmetric/:id" element={<WinningMetricDetails />} />
           <Route path="/" element={
             <>
@@ -140,6 +149,17 @@ function MainContent() {
                           <br /><Link to={post.fields.postUrl} className="card-link">> More</Link></p>
                           
                           <p>{formatDate(post.fields.published)}</p>
+                          {post.fields.winningMetricsIn && post.fields.winningMetricsIn.length > 0 ? (
+                              <>
+                                <span>SQ Winning Metrics: </span>
+                                {post.fields.winningMetricsIn.map((metric, index) => (
+                                  <React.Fragment key={index}>
+                                    <Link to={`/winningmetric/${metric.sys.id}`}>{metric.fields.metricName}</Link>
+                                    {index < post.fields.winningMetricsIn.length - 1 ? ', ' : ''}
+                                  </React.Fragment>
+                                ))}
+                              </>
+                            ) : ''}
                           {post.fields.blogAuthor && (
                             <div className="d-flex align-items-center mt-2">
                               <img

@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import client from './Contentful';  // Make sure to import your Contentful client
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';  // Import the Link component
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
+
 
 const WNBABettingAnalysis = () => {
   const [winningMetrics, setWinningMetrics] = useState([]);
@@ -75,7 +77,7 @@ const WNBABettingAnalysis = () => {
           <div className="col-md-4" key={index}>
             <div className="card mb-4">
               <div className="card-body">
-                <h5 className="card-title">{metric.fields.metricName}</h5>
+              <h5><Link to={`/winningmetric/${metric.sys.id}`}>{metric.fields.metricName}</Link></h5>
                 <div className="card-text">
                   {documentToReactComponents(metric.fields.definition)}
                 </div>
