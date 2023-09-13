@@ -16,6 +16,7 @@ import { Helmet } from 'react-helmet';
 import OddsPage from './OddsPage';
 import ReactGA4 from 'react-ga4';
 import AuthorPosts from './AuthorPosts';
+import WNBABettingAnalysis from './WNBABettingAnalysis';
 
 // Importing the required functions from helpers.js
 import { formatDate, options, truncateWords, richTextToPlainText } from './helpers';
@@ -29,6 +30,7 @@ function MainContent() {
   useEffect(() => {
     client.getEntries({
       content_type: 'blog',
+      'fields.targetSite': 'ShotQualityWire', // add this line to filter by targetSite
       order: '-fields.published',
       include: 2  // fetch linked entries up to 2 levels deep
     })
@@ -70,6 +72,9 @@ function MainContent() {
             <li className="nav-item">
               <Link to="/odds" className="nav-link">🤑 Basketball Odds</Link>
             </li>
+            <li className="nav-item">
+              <Link to="/wnba-betting-analysis" className="nav-link">📊 WNBA Betting Analysis</Link>
+            </li>
             {/* <li className="nav-item">
               <Link to="/calendar" className="nav-link">🗓️ 2023-24 Basketball Calendar</Link>
             </li>
@@ -101,6 +106,7 @@ function MainContent() {
           <Route path="/BasketballAnalytics" element={<BasketballAnalytics />} />
           <Route path="/odds" element={<OddsPage />} />
           <Route path="/author/:authorId" element={<AuthorPosts />} />
+          <Route path="/wnba-betting-analysis" element={<WNBABettingAnalysis />} />
           <Route path="/" element={
             <>
               <main>

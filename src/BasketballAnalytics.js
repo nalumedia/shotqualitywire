@@ -13,7 +13,8 @@ function BasketballAnalytics() {
       const entries = await client.getEntries({
         content_type: 'blog',
         order: '-fields.published',
-        'metadata.tags.sys.id[in]': 'basketballAnalytics'
+        'metadata.tags.sys.id[in]': 'basketballAnalytics',
+        'fields.targetSite': 'ShotQualityWire' // Adding this line to filter by targetSite
       });
       if (entries.items) setPosts(entries.items);
     };
@@ -43,8 +44,8 @@ function BasketballAnalytics() {
     <div>
       <Helmet>
         <title>ShotQualityWire - Basketball Analytics</title>
-        <meta name="description" content="All about the WNBA on Hoopsbot Blog." />
-        <link rel="canonical" href="https://hoopsbot.com/BasketballAnalytics" />
+        <meta name="description" content="All about basketball analytics on ShotQualityWire." />
+        <link rel="canonical" href="https://shotqualitywire.com/BasketballAnalytics" />
       </Helmet>
 
       <h2>Basketball Analytics</h2>
@@ -66,7 +67,6 @@ function BasketballAnalytics() {
           <p><strong>Published on:</strong> {formatDate(post.fields.published)}</p>
         </div>
       ))}
-
     </div>
   );
 }

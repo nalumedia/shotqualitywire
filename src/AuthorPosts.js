@@ -24,7 +24,8 @@ function AuthorPosts() {
         client.getEntries({
             content_type: 'blog',
             order: '-fields.published',
-            'fields.blogAuthor.sys.id': authorId
+            'fields.blogAuthor.sys.id': authorId,
+            'fields.targetSite': 'ShotQualityWire'  // Adding this line to filter by targetSite
         })
         .then(response => {
             setPosts(response.items);

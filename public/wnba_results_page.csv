@@ -1,0 +1,298 @@
+"game_id","type","date","home_team","home_conference","home_pts","home_sq_pts","away_team","away_conference","away_pts","away_sq_pts","line","projected_home_score","projected_away_score","value","value_side","play","result","value_type","closing_line","closing_line_value"
+19537081614391,"spread","2023-06-29","Phoenix Mercury",NA,85,80.69080973,"Indiana Fever",NA,63,81.47376525,3.5,84.3,82.8,5,"Phoenix Mercury",1,1,"Dog",2.5,1
+19537081614391,"total","2023-06-29","Phoenix Mercury",NA,85,80.69080973,"Indiana Fever",NA,63,81.47376525,161,84.3,82.8,6.1,"Over",1,-1.1,"Over",162.5,1.5
+19537092412511,"spread","2023-06-29","Las Vegas Aces",NA,98,81.60211539,"New York Liberty",NA,81,81.16333413,-7.5,91,86.6,3.1,"New York Liberty",1,-1.1,"Dog",-6.5,-1
+19537092412511,"total","2023-06-29","Las Vegas Aces",NA,98,81.60211539,"New York Liberty",NA,81,81.16333413,173.5,91,86.6,4.1,"Over",1,1,"Over",175.5,2
+19537113316321,"spread","2023-06-29","Seattle Storm",NA,97,99.38142872,"Minnesota Lynx",NA,99,99.06008422,-2.5,82,79.4,0.1,"Seattle Storm",0,0,"Fav",-2.5,NA
+19537113316321,"total","2023-06-29","Seattle Storm",NA,97,99.38142872,"Minnesota Lynx",NA,99,99.06008422,161.5,82,79.4,0.1,"Under",0,0,"Under",162.5,NA
+19538009120251,"spread","2023-06-30","Atlanta Dream",NA,94,90.768852,"Washington Mystics",NA,89,89.83774686,2.5,79.7,87.1,4.9,"Washington Mystics",1,-1.1,"Fav",2.5,0
+19538009120251,"total","2023-06-30","Atlanta Dream",NA,94,90.768852,"Washington Mystics",NA,89,89.83774686,164.5,79.7,87.1,2.3,"Over",0,0,"Over",164.5,NA
+19538034609851,"spread","2023-06-30","Chicago Sky",NA,86,73.64679307,"Los Angeles Sparks",NA,78,91.29568344,-2.5,81.5,78.5,0.5,"Chicago Sky",0,0,"Fav",-2.5,NA
+19538034609851,"total","2023-06-30","Chicago Sky",NA,86,73.64679307,"Los Angeles Sparks",NA,78,91.29568344,155.5,81.5,78.5,4.5,"Over",0,0,"Over",155.5,NA
+19540009109851,"spread","2023-07-02","Atlanta Dream",NA,112,97.2687003,"Los Angeles Sparks",NA,84,90.4648546,-3.5,81.3,82.2,4.4,"Los Angeles Sparks",1,-1.1,"Dog",-5,1.5
+19540009109851,"total","2023-07-02","Atlanta Dream",NA,112,97.2687003,"Los Angeles Sparks",NA,84,90.4648546,167.5,81.3,82.2,4,"Under",0,0,"Under",166,NA
+19540034608161,"spread","2023-07-02","Indiana Fever",NA,87,85.924595,"Chicago Sky",NA,89,79.39065659,-2.5,78.8,78.8,2.5,"Chicago Sky",0,0,"Dog",-3,NA
+19540034608161,"total","2023-07-02","Indiana Fever",NA,87,85.924595,"Chicago Sky",NA,89,79.39065659,161.5,78.8,78.8,3.9,"Under",0,0,"Under",159.5,NA
+19540047020251,"spread","2023-07-02","Dallas Wings",NA,89,92.38218212,"Washington Mystics",NA,72,89.30076867,-4.5,84,80.7,1.2,"Washington Mystics",0,0,"Dog",-6.5,NA
+19540047020251,"total","2023-07-02","Dallas Wings",NA,89,92.38218212,"Washington Mystics",NA,72,89.30076867,164,84,80.7,0.7,"Over",0,0,"Over",161.5,NA
+19540125116321,"spread","2023-07-02","Seattle Storm",NA,66,78.36139095,"New York Liberty",NA,81,81.79084718,8.5,81.9,92.2,1.8,"New York Liberty",0,0,"Fav",10.5,NA
+19540125116321,"total","2023-07-02","Seattle Storm",NA,66,78.36139095,"New York Liberty",NA,81,81.79084718,168.5,81.9,92.2,5.6,"Over",1,-1.1,"Over",170.5,2
+19543009109851,"spread","2023-07-05","Los Angeles Sparks",NA,79,82.78947592,"Atlanta Dream",NA,90,81.74401307,-1.5,84.6,82,1.1,"Los Angeles Sparks",0,0,"Fav",-1.5,NA
+19543009109851,"total","2023-07-05","Los Angeles Sparks",NA,79,82.78947592,"Atlanta Dream",NA,90,81.74401307,168,84.6,82.1,1.3,"Under",0,0,"Under",168.5,NA
+19543047009241,"spread","2023-07-05","Las Vegas Aces",NA,89,88.9200058,"Dallas Wings",NA,82,90.47481692,-14.5,89.8,80.8,5.5,"Dallas Wings",1,1,"Dog",-12.5,-2
+19543047009241,"total","2023-07-05","Las Vegas Aces",NA,89,88.9200058,"Dallas Wings",NA,82,90.47481692,170.1,89.8,82,1.7,"Over",1,1,"Over",172,1.9
+19543081611331,"spread","2023-07-05","Minnesota Lynx",NA,90,86.27797955,"Indiana Fever",NA,83,86.41176891,-1.5,83,80.8,0.7,"Minnesota Lynx",0,0,"Fav",-2,NA
+19543081611331,"total","2023-07-05","Minnesota Lynx",NA,90,86.27797955,"Indiana Fever",NA,83,86.41176891,165.5,83,80.8,1.7,"Under",0,0,"Under",165.5,NA
+19543125114391,"spread","2023-07-05","New York Liberty",NA,99,92.65060526,"Phoenix Mercury",NA,95,88.65247881,-15,90.1,83,7.9,"Phoenix Mercury",1,1,"Dog",-15.5,0.5
+19543125114391,"total","2023-07-05","New York Liberty",NA,99,92.65060526,"Phoenix Mercury",NA,95,88.65247881,164.5,90.1,83,8.6,"Over",1,1,"Over",166.5,2
+19544043816321,"spread","2023-07-06","Connecticut Sun",NA,93,77.89795512,"Seattle Storm",NA,73,85.13366836,-9.5,84,82.6,8.1,"Seattle Storm",1,-1.1,"Dog",-10.5,1
+19544043816321,"total","2023-07-06","Connecticut Sun",NA,93,77.89795512,"Seattle Storm",NA,73,85.13366836,164.5,84,82.6,2.1,"Over",0,0,"Over",166,NA
+19545009103461,"spread","2023-07-07","Chicago Sky",NA,68,81.14421356,"Atlanta Dream",NA,82,85.49839604,-1.5,82.6,81.1,0,NA,0,0,NA,-1,NA
+19545009103461,"total","2023-07-07","Chicago Sky",NA,68,81.14421356,"Atlanta Dream",NA,82,85.49839604,169.5,82.6,81.1,5.8,"Under",1,1,"Under",169.5,0
+19545047009241,"spread","2023-07-07","Dallas Wings",NA,80,83.56376493,"Las Vegas Aces",NA,78,78.20784354,9.5,82.3,89.5,2.3,"Dallas Wings",0,0,"Dog",10,NA
+19545047009241,"total","2023-07-07","Dallas Wings",NA,80,83.56376493,"Las Vegas Aces",NA,78,78.20784354,174.5,82.3,89.5,2.7,"Under",0,0,"Under",177.5,NA
+19545081620251,"spread","2023-07-07","Washington Mystics",NA,96,93.14562148,"Indiana Fever",NA,88,72.85981691,-3.5,82.5,84.6,5.6,"Indiana Fever",1,-1.1,"Dog",-1,-2.5
+19545081620251,"total","2023-07-07","Washington Mystics",NA,96,93.14562148,"Indiana Fever",NA,88,72.85981691,159.5,82.5,84.6,7.6,"Over",1,1,"Over",156.5,-3
+19545113314391,"spread","2023-07-07","Minnesota Lynx",NA,75,78.75472105,"Phoenix Mercury",NA,64,77.1920706,-4,82.3,82,3.7,"Phoenix Mercury",1,-1.1,"Dog",-5.5,1.5
+19545113314391,"total","2023-07-07","Minnesota Lynx",NA,75,78.75472105,"Phoenix Mercury",NA,64,77.1920706,163.5,82.3,82,0.8,"Over",0,0,"Over",161.5,NA
+19546125116321,"spread","2023-07-08","New York Liberty",NA,80,82.53018528,"Seattle Storm",NA,76,90.68646383,-15.5,92.4,80.4,3.5,"Seattle Storm",1,1,"Dog",-15.5,0
+19546125116321,"total","2023-07-08","New York Liberty",NA,80,82.53018528,"Seattle Storm",NA,76,90.68646383,167,92.4,80.4,5.8,"Over",1,-1.1,"Over",168.5,1.5
+19547009103461,"spread","2023-07-09","Chicago Sky",NA,77,86.38676095,"Atlanta Dream",NA,88,90.94106859,-1.5,81.4,82.5,2.6,"Atlanta Dream",0,0,"Dog",-2,NA
+19547009103461,"total","2023-07-09","Chicago Sky",NA,77,86.38676095,"Atlanta Dream",NA,88,90.94106859,169.5,81.4,82.5,5.6,"Under",1,1,"Under",166.5,3
+19547043820251,"spread","2023-07-09","Connecticut Sun",NA,92,78.822842,"Washington Mystics",NA,84,73.31074452,-4,85.1,85,3.9,"Washington Mystics",1,-1.1,"Dog",-4.5,0.5
+19547043820251,"total","2023-07-09","Connecticut Sun",NA,92,78.822842,"Washington Mystics",NA,84,73.31074452,160.5,85.1,85,9.6,"Over",1,1,"Over",160.5,0
+19547047008161,"spread","2023-07-09","Indiana Fever",NA,76,82.00458974,"Dallas Wings",NA,77,81.65116966,3.5,80.7,81.1,3.1,"Indiana Fever",1,1,"Dog",3.5,0
+19547047008161,"total","2023-07-09","Indiana Fever",NA,76,82.00458974,"Dallas Wings",NA,77,81.65116966,169.5,80.7,81.1,7.7,"Under",1,1,"Under",168.5,1
+19547092411331,"spread","2023-07-09","Minnesota Lynx",NA,89,87.46514356,"Las Vegas Aces",NA,113,92.46137595,13.5,80.2,89.2,4.5,"Minnesota Lynx",1,-1.1,"Dog",11.5,2
+19547092411331,"total","2023-07-09","Minnesota Lynx",NA,89,87.46514356,"Las Vegas Aces",NA,113,92.46137595,171.5,80.2,89.2,2.1,"Under",0,0,"Under",171.5,NA
+19547098514391,"spread","2023-07-09","Phoenix Mercury",NA,78,80.39506173,"Los Angeles Sparks",NA,72,78.06793439,-1,84,78.3,4.7,"Phoenix Mercury",1,1,"Fav",-1.5,0.5
+19547098514391,"total","2023-07-09","Phoenix Mercury",NA,78,80.39506173,"Los Angeles Sparks",NA,72,78.06793439,160.5,84,78.3,1.8,"Over",0,0,"Over",159.5,NA
+19549092414391,"spread","2023-07-11","Las Vegas Aces",NA,98,94.03412884,"Phoenix Mercury",NA,72,82.2713517,-17.5,91.2,84.6,10.9,"Phoenix Mercury",1,-1.1,"Dog",-17,-0.5
+19549092414391,"total","2023-07-11","Las Vegas Aces",NA,98,94.03412884,"Phoenix Mercury",NA,72,82.2713517,169.5,91.2,84.6,6.3,"Over",1,1,"Over",170,0.5
+19549163220251,"spread","2023-07-11","Washington Mystics",NA,93,78.28782314,"Seattle Storm",NA,86,84.97214323,-5.5,86.4,83.8,2.9,"Seattle Storm",0,0,"Dog",-5,NA
+19549163220251,"total","2023-07-11","Washington Mystics",NA,93,78.28782314,"Seattle Storm",NA,86,84.97214323,157.5,86.4,83.8,12.7,"Over",1,1,"Over",158.5,1
+19550009116321,"spread","2023-07-12","Atlanta Dream",NA,85,89.72517353,"Seattle Storm",NA,75,87.18009281,-7.5,86.9,84.6,5.2,"Seattle Storm",1,-1.1,"Dog",-12.5,5
+19550009116321,"total","2023-07-12","Atlanta Dream",NA,85,89.72517353,"Seattle Storm",NA,75,87.18009281,170.5,86.9,84.6,1,"Over",0,0,"Over",168.5,NA
+19550034604381,"spread","2023-07-12","Chicago Sky",NA,72,77.39026421,"Connecticut Sun",NA,84,83.23154467,4.5,78.2,81.1,1.6,"Chicago Sky",0,0,"Dog",4.5,NA
+19550034604381,"total","2023-07-12","Chicago Sky",NA,72,77.39026421,"Connecticut Sun",NA,84,83.23154467,160.5,78.2,81.1,1.2,"Under",0,0,"Under",160.5,NA
+19550047011331,"spread","2023-07-12","Minnesota Lynx",NA,67,77.00844216,"Dallas Wings",NA,107,93.01514196,2,80.7,79.8,2.9,"Minnesota Lynx",0,0,"Dog",2.5,NA
+19550047011331,"total","2023-07-12","Minnesota Lynx",NA,67,77.00844216,"Dallas Wings",NA,107,93.01514196,167.5,80.7,79.8,7,"Under",1,-1.1,"Under",168,-0.5
+19550081612511,"spread","2023-07-12","Indiana Fever",NA,87,104.9696369,"New York Liberty",NA,95,100.0351272,9.5,80.4,89.5,0.4,"Indiana Fever",0,0,"Dog",10,NA
+19550081612511,"total","2023-07-12","Indiana Fever",NA,87,104.9696369,"New York Liberty",NA,95,100.0351272,167.5,80.4,89.5,2.4,"Over",0,0,"Over",168.5,NA
+19550092409851,"spread","2023-07-12","Los Angeles Sparks",NA,78,83.14068371,"Las Vegas Aces",NA,97,88.44538379,14,78.7,88.8,3.9,"Los Angeles Sparks",1,-1.1,"Dog",13,1
+19550092409851,"total","2023-07-12","Los Angeles Sparks",NA,78,83.14068371,"Las Vegas Aces",NA,97,88.44538379,170.5,78.7,88.8,3,"Under",1,-1.1,"Under",169.5,1
+19556009111331,"spread","2023-07-18","Atlanta Dream",NA,82,86.08721823,"Minnesota Lynx",NA,73,85.34366769,-5.5,85.3,82.8,3,"Minnesota Lynx",1,-1.1,"Dog",-6,0.5
+19556009111331,"total","2023-07-18","Atlanta Dream",NA,82,86.08721823,"Minnesota Lynx",NA,73,85.34366769,171.5,85.3,82.8,3.4,"Under",1,1,"Under",169.5,2
+19556043814391,"spread","2023-07-18","Phoenix Mercury",NA,72,71.17469025,"Connecticut Sun",NA,66,76.41193104,8,84,81.9,10.1,"Phoenix Mercury",1,1,"Dog",7.5,0.5
+19556043814391,"total","2023-07-18","Phoenix Mercury",NA,72,71.17469025,"Connecticut Sun",NA,66,76.41193104,162.5,84,81.9,3.4,"Over",1,-1.1,"Over",162.5,0
+19557047012511,"spread","2023-07-19","New York Liberty",NA,88,85.82729799,"Dallas Wings",NA,98,96.48731858,-7.5,88.5,82.1,1.1,"Dallas Wings",0,0,"Dog",-7.5,NA
+19557047012511,"total","2023-07-19","New York Liberty",NA,88,85.82729799,"Dallas Wings",NA,98,96.48731858,171,88.5,82.1,0.4,"Under",0,0,"Under",167.5,NA
+19557081620251,"spread","2023-07-19","Washington Mystics",NA,76,76.49755555,"Indiana Fever",NA,82,81.80654103,-2.5,86.7,84.1,0.1,"Washington Mystics",0,0,"Fav",-2.5,NA
+19557081620251,"total","2023-07-19","Washington Mystics",NA,76,76.49755555,"Indiana Fever",NA,82,81.80654103,157.5,86.7,84.1,13.3,"Over",1,1,"Over",158,0.5
+19558009104381,"spread","2023-07-20","Connecticut Sun",NA,82,83.96286207,"Atlanta Dream",NA,71,81.56551093,-5.5,82.5,82.1,5.1,"Atlanta Dream",1,-1.1,"Dog",-5.5,0
+19558009104381,"total","2023-07-20","Connecticut Sun",NA,82,83.96286207,"Atlanta Dream",NA,71,81.56551093,167.5,82.5,82.1,2.9,"Under",0,0,"Under",169.5,NA
+19558034614391,"spread","2023-07-20","Phoenix Mercury",NA,80,79.33429235,"Chicago Sky",NA,62,85.50528455,2,83.7,76.8,8.9,"Phoenix Mercury",1,1,"Dog",1.5,0.5
+19558034614391,"total","2023-07-20","Phoenix Mercury",NA,80,79.33429235,"Chicago Sky",NA,62,85.50528455,154.5,83.7,76.8,6,"Over",1,-1.1,"Over",155,0.5
+19558092416321,"spread","2023-07-20","Seattle Storm",NA,63,75.92700446,"Las Vegas Aces",NA,79,85.90884149,17.5,82.1,92.5,7.1,"Seattle Storm",1,1,"Dog",16.5,1
+19558092416321,"total","2023-07-20","Seattle Storm",NA,63,75.92700446,"Las Vegas Aces",NA,79,85.90884149,170.5,82.1,92.5,4.1,"Over",1,-1.1,"Over",170.5,0
+19558098511331,"spread","2023-07-20","Minnesota Lynx",NA,73,79.65329629,"Los Angeles Sparks",NA,70,77.90500432,-3.5,81.6,78.4,0.3,"Los Angeles Sparks",0,0,"Dog",-3.5,NA
+19558098511331,"total","2023-07-20","Minnesota Lynx",NA,73,79.65329629,"Los Angeles Sparks",NA,70,77.90500432,162.5,81.6,78.4,2.5,"Under",0,0,"Under",164.5,NA
+19559125120251,"spread","2023-07-21","Washington Mystics",NA,87,91.32210535,"New York Liberty",NA,96,96.08096629,8.5,84.7,92.9,0.3,"Washington Mystics",0,0,"Dog",10.5,NA
+19559125120251,"total","2023-07-21","Washington Mystics",NA,87,91.32210535,"New York Liberty",NA,96,96.08096629,161.5,84.7,92.9,16.1,"Over",1,1,"Over",162.5,1
+19560009104381,"spread","2023-07-22","Atlanta Dream",NA,78,102.409988,"Connecticut Sun",NA,86,88.8061409,1,83.5,81.8,2.7,"Atlanta Dream",0,0,"Dog",-1.5,NA
+19560009104381,"total","2023-07-22","Atlanta Dream",NA,78,102.409988,"Connecticut Sun",NA,86,88.8061409,168.5,83.5,81.8,3.2,"Under",1,1,"Under",167.5,1
+19560034616321,"spread","2023-07-22","Seattle Storm",NA,75,76.49104232,"Chicago Sky",NA,90,90.90814227,1.5,82.3,77.2,6.6,"Seattle Storm",1,-1.1,"Dog",-1.5,3
+19560034616321,"total","2023-07-22","Seattle Storm",NA,75,76.49104232,"Chicago Sky",NA,90,90.90814227,159.5,82.3,77.2,0,NA,0,0,NA,159,NA
+19560047009851,"spread","2023-07-22","Dallas Wings",NA,98,91.74967271,"Los Angeles Sparks",NA,84,73.83727276,-7.5,81.6,76,1.9,"Los Angeles Sparks",0,0,"Dog",-8.5,NA
+19560047009851,"total","2023-07-22","Dallas Wings",NA,98,91.74967271,"Los Angeles Sparks",NA,84,73.83727276,164.5,81.6,76,6.9,"Under",1,-1.1,"Under",164.5,0
+19560092411331,"spread","2023-07-22","Minnesota Lynx",NA,81,83.17708284,"Las Vegas Aces",NA,98,90.76096684,15,81,90.2,5.8,"Minnesota Lynx",1,-1.1,"Dog",14.5,0.5
+19560092411331,"total","2023-07-22","Minnesota Lynx",NA,81,83.17708284,"Las Vegas Aces",NA,98,90.76096684,169.5,81,90.2,1.7,"Over",0,0,"Over",170.5,NA
+19561081612511,"spread","2023-07-23","New York Liberty",NA,101,85.57414186,"Indiana Fever",NA,83,83.93566984,-11.5,92.3,83.1,2.3,"Indiana Fever",0,0,"Dog",-13,NA
+19561081612511,"total","2023-07-23","New York Liberty",NA,101,85.57414186,"Indiana Fever",NA,83,83.93566984,171,92.3,83.1,4.4,"Over",1,1,"Over",170.5,-0.5
+19561143920251,"spread","2023-07-23","Washington Mystics",NA,84,79.78680718,"Phoenix Mercury",NA,69,69.92266285,-4.5,83.8,85.7,6.4,"Phoenix Mercury",1,-1.1,"Dog",-3,-1.5
+19561143920251,"total","2023-07-23","Washington Mystics",NA,84,79.78680718,"Phoenix Mercury",NA,69,69.92266285,156.5,83.8,85.7,13,"Over",1,-1.1,"Over",156,-0.5
+19563009114391,"spread","2023-07-25","Atlanta Dream",NA,78,75.39161736,"Phoenix Mercury",NA,65,83.99342126,-7,86.4,83.8,4.4,"Phoenix Mercury",1,-1.1,"Dog",-8,1
+19563009114391,"total","2023-07-25","Atlanta Dream",NA,78,75.39161736,"Phoenix Mercury",NA,65,83.99342126,164.5,86.4,83.8,5.7,"Over",1,-1.1,"Over",163.5,-1
+19563034609241,"spread","2023-07-25","Chicago Sky",NA,95,86.37160647,"Las Vegas Aces",NA,107,108.7256079,14.5,78.5,91.4,1.6,"Chicago Sky",0,0,"Dog",14.5,NA
+19563034609241,"total","2023-07-25","Chicago Sky",NA,95,86.37160647,"Las Vegas Aces",NA,107,108.7256079,168.5,78.5,91.4,1.4,"Over",0,0,"Over",167.5,NA
+19563043804701,"spread","2023-07-25","Dallas Wings",NA,83,91.54657,"Connecticut Sun",NA,88,85.25319999,-2.5,82.5,76.6,3.4,"Dallas Wings",1,-1.1,"Fav",-3.5,1
+19563043804701,"total","2023-07-25","Dallas Wings",NA,83,91.54657,"Connecticut Sun",NA,88,85.25319999,166.5,82.5,76.6,7.4,"Under",1,-1.1,"Under",168,-1.5
+19563081609851,"spread","2023-07-25","Los Angeles Sparks",NA,79,80.32962298,"Indiana Fever",NA,78,76.24768519,-3.5,80.1,79.9,3.3,"Indiana Fever",1,1,"Dog",-4.5,1
+19563081609851,"total","2023-07-25","Los Angeles Sparks",NA,79,80.32962298,"Indiana Fever",NA,78,76.24768519,165.5,80.1,79.9,5.5,"Under",1,1,"Under",163.5,2
+19563125116321,"spread","2023-07-25","New York Liberty",NA,86,99.83490831,"Seattle Storm",NA,82,85.4665941,-15,93.7,83,4.3,"Seattle Storm",1,1,"Dog",-15,0
+19563125116321,"total","2023-07-25","New York Liberty",NA,86,99.83490831,"Seattle Storm",NA,82,85.4665941,168.5,93.7,83,8.2,"Over",1,-1.1,"Over",170.5,2
+19564113320251,"spread","2023-07-26","Minnesota Lynx",NA,97,92.70157129,"Washington Mystics",NA,92,81.03081912,-2.5,84.8,80.7,1.6,"Minnesota Lynx",0,0,"Fav",-3.5,NA
+19564113320251,"total","2023-07-26","Minnesota Lynx",NA,97,92.70157129,"Washington Mystics",NA,92,81.03081912,160.5,84.8,80.7,5,"Over",1,1,"Over",159,-1.5
+19565009112511,"spread","2023-07-27","New York Liberty",NA,95,90.04225111,"Atlanta Dream",NA,84,91.48575538,-9,93.6,85.9,1.3,"Atlanta Dream",0,0,"Dog",-8.5,NA
+19565009112511,"total","2023-07-27","New York Liberty",NA,95,90.04225111,"Atlanta Dream",NA,84,91.48575538,173.5,93.6,85.9,6,"Over",1,1,"Over",175,1.5
+19565081609851,"spread","2023-07-27","Los Angeles Sparks",NA,81,84.08144647,"Indiana Fever",NA,68,68.81471062,-3.5,78,80.6,6.1,"Indiana Fever",1,-1.1,"Dog",-2.5,-1
+19565081609851,"total","2023-07-27","Los Angeles Sparks",NA,81,84.08144647,"Indiana Fever",NA,68,68.81471062,162,78,80.6,3.4,"Under",1,1,"Under",160.5,1.5
+19566034616321,"spread","2023-07-28","Chicago Sky",NA,74,84.82766515,"Seattle Storm",NA,83,95.35407275,-4.5,79.1,82.3,7.7,"Seattle Storm",1,1,"Dog",-4.5,0
+19566034616321,"total","2023-07-28","Chicago Sky",NA,74,84.82766515,"Seattle Storm",NA,83,95.35407275,161.5,79.1,82.3,0.1,"Under",0,0,"Under",161.5,NA
+19566047020251,"spread","2023-07-28","Dallas Wings",NA,90,73.26418847,"Washington Mystics",NA,62,81.82757735,-9,87.3,79,0.7,"Washington Mystics",0,0,"Dog",-9,NA
+19566047020251,"total","2023-07-28","Dallas Wings",NA,90,73.26418847,"Washington Mystics",NA,62,81.82757735,164.5,87.3,79,1.8,"Over",0,0,"Over",164.5,NA
+19566113312511,"spread","2023-07-28","New York Liberty",NA,83,99.83929479,"Minnesota Lynx",NA,88,91.18705058,-14.5,91.3,81.5,4.7,"Minnesota Lynx",1,1,"Dog",-13.5,-1
+19566113312511,"total","2023-07-28","New York Liberty",NA,83,99.83929479,"Minnesota Lynx",NA,88,91.18705058,168.5,91.3,81.5,4.3,"Over",1,1,"Over",166,-2.5
+19568009120251,"spread","2023-07-30","Atlanta Dream",NA,80,76.31162226,"Washington Mystics",NA,73,92.38576603,-6.5,87.7,82.9,1.7,"Washington Mystics",0,0,"Dog",-8.5,NA
+19568009120251,"total","2023-07-30","Atlanta Dream",NA,80,76.31162226,"Washington Mystics",NA,73,92.38576603,164.5,87.7,82.9,6.1,"Over",1,-1.1,"Over",165.5,1
+19568034614391,"spread","2023-07-30","Chicago Sky",NA,104,88.89559561,"Phoenix Mercury",NA,85,78.79203981,-7.5,77.1,80.3,10.7,"Phoenix Mercury",1,-1.1,"Dog",-7,-0.5
+19568034614391,"total","2023-07-30","Chicago Sky",NA,104,88.89559561,"Phoenix Mercury",NA,85,78.79203981,155,77.1,80.3,2.4,"Over",0,0,"Over",155,NA
+19568043811331,"spread","2023-07-30","Connecticut Sun",NA,83,93.64117199,"Minnesota Lynx",NA,87,72.68450755,-11.5,80.7,78.7,9.5,"Minnesota Lynx",1,1,"Dog",-12.5,1
+19568043811331,"total","2023-07-30","Connecticut Sun",NA,83,93.64117199,"Minnesota Lynx",NA,87,72.68450755,161.5,80.7,78.7,2.1,"Under",0,0,"Under",160.5,NA
+19568047009241,"spread","2023-07-30","Las Vegas Aces",NA,104,94.10965878,"Dallas Wings",NA,91,92.70023668,-10.5,88,84.1,6.6,"Dallas Wings",1,-1.1,"Dog",-11,0.5
+19568047009241,"total","2023-07-30","Las Vegas Aces",NA,104,94.10965878,"Dallas Wings",NA,91,92.70023668,173.5,88,84.1,1.4,"Under",0,0,"Under",174.5,NA
+19568081616321,"spread","2023-07-30","Indiana Fever",NA,62,78.63280535,"Seattle Storm",NA,85,67.72808045,-3.5,83.1,78.8,0.8,"Indiana Fever",0,0,"Fav",-4,NA
+19568081616321,"total","2023-07-30","Indiana Fever",NA,62,78.63280535,"Seattle Storm",NA,85,67.72808045,163.5,83.1,78.8,1.6,"Under",0,0,"Under",163,NA
+19568098512511,"spread","2023-07-30","Los Angeles Sparks",NA,79,87.23243117,"New York Liberty",NA,87,85.10409033,8.5,81.9,89.1,1.3,"Los Angeles Sparks",0,0,"Dog",8.5,NA
+19568098512511,"total","2023-07-30","Los Angeles Sparks",NA,79,87.23243117,"New York Liberty",NA,87,85.10409033,168,81.9,89.1,3,"Over",1,-1.1,"Over",168,0
+19570009109241,"spread","2023-08-01","Las Vegas Aces",NA,93,83.57867783,"Atlanta Dream",NA,72,75.83985317,-14.5,94.7,84.2,4,"Atlanta Dream",1,-1.1,"Dog",-13.5,-1
+19570009109241,"total","2023-08-01","Las Vegas Aces",NA,93,83.57867783,"Atlanta Dream",NA,72,75.83985317,177.5,94.7,84.2,1.4,"Over",0,0,"Over",178.5,NA
+19570043811331,"spread","2023-08-01","Connecticut Sun",NA,79,79.55040234,"Minnesota Lynx",NA,69,82.90068603,-10.5,81.2,78.4,7.7,"Minnesota Lynx",1,1,"Dog",-11.5,1
+19570043811331,"total","2023-08-01","Connecticut Sun",NA,79,79.55040234,"Minnesota Lynx",NA,69,82.90068603,162.5,81.2,78.4,2.9,"Under",0,0,"Under",163.5,NA
+19570081614391,"spread","2023-08-01","Indiana Fever",NA,72,85.27865207,"Phoenix Mercury",NA,71,79.39766228,-6,80.6,78.6,4,"Phoenix Mercury",1,1,"Dog",-5.5,-0.5
+19570081614391,"total","2023-08-01","Indiana Fever",NA,72,85.27865207,"Phoenix Mercury",NA,71,79.39766228,159.5,80.6,78.6,0.3,"Under",0,0,"Under",157.5,NA
+19570098512511,"spread","2023-08-01","Los Angeles Sparks",NA,69,84.54927105,"New York Liberty",NA,76,83.16343093,9,81.5,90.6,0.1,"New York Liberty",0,0,"Fav",8.5,NA
+19570098512511,"total","2023-08-01","Los Angeles Sparks",NA,69,84.54927105,"New York Liberty",NA,76,83.16343093,166.5,81.5,90.6,5.6,"Over",1,-1.1,"Over",166.5,0
+19571047016321,"spread","2023-08-02","Seattle Storm",NA,65,71.80111408,"Dallas Wings",NA,76,88.32621902,6.5,79.6,83.5,2.6,"Seattle Storm",0,0,"Dog",7.5,NA
+19571047016321,"total","2023-08-02","Seattle Storm",NA,65,71.80111408,"Dallas Wings",NA,76,88.32621902,166.5,79.6,83.5,3.4,"Under",1,1,"Under",167.5,-1
+19572009114391,"spread","2023-08-03","Phoenix Mercury",NA,91,NA,"Atlanta Dream",NA,71,NA,7.5,81.7,82.3,6.9,"Phoenix Mercury",1,1,"Dog",7.5,0
+19572009114391,"total","2023-08-03","Phoenix Mercury",NA,91,NA,"Atlanta Dream",NA,71,NA,163.5,81.7,82.3,0.5,"Over",0,0,"Over",163.5,NA
+19573034604701,"spread","2023-08-04","Dallas Wings",NA,89,90.37444502,"Chicago Sky",NA,104,82.46978849,-9.5,83.9,74.1,0.3,"Dallas Wings",0,0,"Fav",-10.5,NA
+19573034604701,"total","2023-08-04","Dallas Wings",NA,89,90.37444502,"Chicago Sky",NA,104,82.46978849,163.5,83.9,74.1,5.5,"Under",1,-1.1,"Under",164.5,-1
+19573043808161,"spread","2023-08-04","Indiana Fever",NA,72,80.87681299,"Connecticut Sun",NA,88,82.20459473,7.5,78,76.8,8.7,"Indiana Fever",1,-1.1,"Dog",7.5,0
+19573043808161,"total","2023-08-04","Indiana Fever",NA,72,80.87681299,"Connecticut Sun",NA,88,82.20459473,160.5,78,76.8,5.7,"Under",1,1,"Under",160.5,0
+19573098520251,"spread","2023-08-04","Washington Mystics",NA,79,78.46609312,"Los Angeles Sparks",NA,77,81.20802552,-3.5,81.5,79.8,1.8,"Los Angeles Sparks",0,0,"Dog",-3.5,NA
+19573098520251,"total","2023-08-04","Washington Mystics",NA,79,78.46609312,"Los Angeles Sparks",NA,77,81.20802552,157.5,81.5,79.8,3.8,"Over",1,-1.1,"Over",157.5,0
+19573113312511,"spread","2023-08-04","Minnesota Lynx",NA,66,76.5518055,"New York Liberty",NA,76,86.66792655,11,82.4,92.1,1.3,"Minnesota Lynx",0,0,"Dog",9,NA
+19573113312511,"total","2023-08-04","Minnesota Lynx",NA,66,76.5518055,"New York Liberty",NA,76,86.66792655,167.5,82.4,92.1,7,"Over",1,-1.1,"Over",169.5,2
+19574143916321,"spread","2023-08-05","Phoenix Mercury",NA,91,89.20976985,"Seattle Storm",NA,97,93.64341229,-3.5,82.2,80,1.3,"Seattle Storm",0,0,"Dog",-4.5,NA
+19574143916321,"total","2023-08-05","Phoenix Mercury",NA,91,89.20976985,"Seattle Storm",NA,97,93.64341229,160.5,82.2,80,1.7,"Over",0,0,"Over",159,NA
+19575009108161,"spread","2023-08-06","Atlanta Dream",NA,82,78.9684611,"Indiana Fever",NA,73,83.58148336,-7.5,81.5,78.7,4.7,"Indiana Fever",1,-1.1,"Dog",-8,0.5
+19575009108161,"total","2023-08-06","Atlanta Dream",NA,82,78.9684611,"Indiana Fever",NA,73,83.58148336,167.5,81.5,78.7,7.3,"Under",1,1,"Under",167,0.5
+19575034604701,"spread","2023-08-06","Dallas Wings",NA,96,97.26894772,"Chicago Sky",NA,104,95.7999543,-8.5,84.4,74.9,1,"Dallas Wings",0,0,"Fav",-8.5,NA
+19575034604701,"total","2023-08-06","Dallas Wings",NA,96,97.26894772,"Chicago Sky",NA,104,95.7999543,165.5,84.4,74.9,6.2,"Under",1,-1.1,"Under",166.5,-1
+19575092412511,"spread","2023-08-06","New York Liberty",NA,99,87.1218307,"Las Vegas Aces",NA,61,85.10801435,4.5,90.6,94.5,0.6,"New York Liberty",0,0,"Dog",5,NA
+19575092412511,"total","2023-08-06","New York Liberty",NA,99,87.1218307,"Las Vegas Aces",NA,61,85.10801435,176.5,90.6,94.5,8.6,"Over",1,-1.1,"Over",176.5,0
+19575098520251,"spread","2023-08-06","Washington Mystics",NA,83,82.23420858,"Los Angeles Sparks",NA,91,82.08666962,-3.5,78.6,80.2,5.1,"Los Angeles Sparks",1,1,"Dog",-3,-0.5
+19575098520251,"total","2023-08-06","Washington Mystics",NA,83,82.23420858,"Los Angeles Sparks",NA,91,82.08666962,156.5,78.6,80.2,2.3,"Over",0,0,"Over",155.5,NA
+19577034611331,"spread","2023-08-08","Chicago Sky",NA,79,83.30717432,"Minnesota Lynx",NA,88,82.84463048,-3.5,83,80,0.5,"Minnesota Lynx",0,0,"Dog",-3.5,NA
+19577034611331,"total","2023-08-08","Chicago Sky",NA,79,83.30717432,"Minnesota Lynx",NA,88,82.84463048,164.5,83,80,1.5,"Under",0,0,"Under",164.5,NA
+19577043816321,"spread","2023-08-08","Seattle Storm",NA,69,79.64555991,"Connecticut Sun",NA,81,80.09228289,7.5,78.2,80,5.7,"Seattle Storm",1,-1.1,"Dog",7.5,0
+19577043816321,"total","2023-08-08","Seattle Storm",NA,69,79.64555991,"Connecticut Sun",NA,81,80.09228289,159.5,78.2,80,1.3,"Under",0,0,"Under",160.5,NA
+19577047009241,"spread","2023-08-08","Dallas Wings",NA,84,92.19732577,"Las Vegas Aces",NA,104,94.72652704,8.5,85.9,88.2,6.2,"Dallas Wings",1,-1.1,"Dog",8.5,0
+19577047009241,"total","2023-08-08","Dallas Wings",NA,84,92.19732577,"Las Vegas Aces",NA,104,94.72652704,176.5,85.9,88.2,2.4,"Under",0,0,"Under",177.5,NA
+19577081609851,"spread","2023-08-08","Indiana Fever",NA,80,82.41208339,"Los Angeles Sparks",NA,87,92.19387555,-1.5,77.7,75.8,0.4,"Indiana Fever",0,0,"Fav",-1,NA
+19577081609851,"total","2023-08-08","Indiana Fever",NA,80,82.41208339,"Los Angeles Sparks",NA,87,92.19387555,158.5,77.7,75.8,5,"Under",1,-1.1,"Under",157.5,1
+19577143920251,"spread","2023-08-08","Phoenix Mercury",NA,91,74.9866963,"Washington Mystics",NA,72,81.17379349,-2.5,85.4,78.5,4.4,"Phoenix Mercury",1,1,"Fav",-2.5,0
+19577143920251,"total","2023-08-08","Phoenix Mercury",NA,91,74.9866963,"Washington Mystics",NA,72,81.17379349,157.5,85.4,78.5,6.4,"Over",1,1,"Over",159.5,2
+19579009116321,"spread","2023-08-10","Seattle Storm",NA,68,89.7895686,"Atlanta Dream",NA,67,88.0628736,5.5,80.7,82.7,3.5,"Seattle Storm",1,1,"Dog",5.5,0
+19579009116321,"total","2023-08-10","Seattle Storm",NA,68,89.7895686,"Atlanta Dream",NA,67,88.0628736,165.5,80.7,82.7,2.1,"Under",0,0,"Under",163.5,NA
+19579043814391,"spread","2023-08-10","Phoenix Mercury",NA,90,78.90494531,"Connecticut Sun",NA,84,89.93848467,8,79.2,79.2,8,"Phoenix Mercury",1,1,"Dog",7.5,0.5
+19579043814391,"total","2023-08-10","Phoenix Mercury",NA,90,78.90494531,"Connecticut Sun",NA,84,89.93848467,160.5,79.2,79.2,2.1,"Under",0,0,"Under",159.5,NA
+19579081611331,"spread","2023-08-10","Indiana Fever",NA,91,81.51116222,"Minnesota Lynx",NA,73,75.65238512,3.5,79.6,75.9,7.2,"Indiana Fever",1,1,"Dog",2.5,1
+19579081611331,"total","2023-08-10","Indiana Fever",NA,91,81.51116222,"Minnesota Lynx",NA,73,75.65238512,162.5,79.6,75.9,7,"Under",1,-1.1,"Under",163.5,-1
+19580034612511,"spread","2023-08-11","New York Liberty",NA,89,82.35591495,"Chicago Sky",NA,73,77.77530533,-12.5,92.3,81.9,2.1,"Chicago Sky",0,0,"Dog",-12.5,NA
+19580034612511,"total","2023-08-11","New York Liberty",NA,89,82.35591495,"Chicago Sky",NA,73,77.77530533,167.5,92.3,81.9,6.7,"Over",1,-1.1,"Over",170,2.5
+19580092420251,"spread","2023-08-11","Las Vegas Aces",NA,113,97.15709049,"Washington Mystics",NA,89,83.18627232,-17.5,93.5,77.7,1.7,"Washington Mystics",0,0,"Dog",-17.5,NA
+19580092420251,"total","2023-08-11","Las Vegas Aces",NA,113,97.15709049,"Washington Mystics",NA,89,83.18627232,168.5,93.5,77.7,2.7,"Over",0,0,"Over",169.5,NA
+19581009109851,"spread","2023-08-12","Los Angeles Sparks",NA,85,84.59138435,"Atlanta Dream",NA,74,80.46303678,-1,80.5,81.5,2,"Atlanta Dream",0,0,"Dog",1,NA
+19581009109851,"total","2023-08-12","Los Angeles Sparks",NA,85,84.59138435,"Atlanta Dream",NA,74,80.46303678,162.5,80.5,81.5,0.5,"Under",0,0,"Under",163.5,NA
+19581043804701,"spread","2023-08-12","Dallas Wings",NA,91,84.85801089,"Connecticut Sun",NA,81,83.0236547,-2.5,80.5,78,0,NA,0,0,NA,-2.5,NA
+19581043804701,"total","2023-08-12","Dallas Wings",NA,91,84.85801089,"Connecticut Sun",NA,81,83.0236547,168.5,80.5,78,10,"Under",1,-1.1,"Under",168.5,0
+19582009109241,"spread","2023-08-13","Las Vegas Aces",NA,86,95.25723463,"Atlanta Dream",NA,65,74.55187267,-17,93.7,80.7,4,"Atlanta Dream",1,-1.1,"Dog",-17,0
+19582009109241,"total","2023-08-13","Las Vegas Aces",NA,86,95.25723463,"Atlanta Dream",NA,65,74.55187267,175.5,93.7,80.7,1.1,"Under",0,0,"Under",175.5,NA
+19582081612511,"spread","2023-08-13","Indiana Fever",NA,89,87.38500196,"New York Liberty",NA,100,93.72016191,10.5,80.9,85.7,5.7,"Indiana Fever",1,-1.1,"Dog",10.5,0
+19582081612511,"total","2023-08-13","Indiana Fever",NA,89,87.38500196,"New York Liberty",NA,100,93.72016191,165.5,80.9,85.7,1.1,"Over",0,0,"Over",165.5,NA
+19582143916321,"spread","2023-08-13","Seattle Storm",NA,81,69.43224084,"Phoenix Mercury",NA,71,83.52568001,-1.5,78.9,84.2,6.8,"Phoenix Mercury",1,-1.1,"Dog",-2.5,1
+19582143916321,"total","2023-08-13","Seattle Storm",NA,81,69.43224084,"Phoenix Mercury",NA,71,83.52568001,162.5,78.9,84.2,0.6,"Over",0,0,"Over",160.5,NA
+19584092412511,"spread","2023-08-15","Las Vegas Aces",NA,63,87.6510505080223,"New York Liberty",NA,82,87.0940400958061,-7,92,89.3,4.3,"New York Liberty",1,1,"Dog",-7.5,0.5
+19584092412511,"total","2023-08-15","Las Vegas Aces",NA,63,87.6510505080223,"New York Liberty",NA,82,87.0940400958061,176.5,92,89.3,4.80000000000001,"Over",1,-1.1,"Over",177.5,1
+19586092412511,"spread","2023-08-17","Las Vegas Aces",NA,88,90.7283768057823,"New York Liberty",NA,75,78.6861372590065,-6,91.6,88.4,2.80000000000001,"New York Liberty",0,0,"Dog",-6.5,NA
+19586092412511,"total","2023-08-17","Las Vegas Aces",NA,88,90.7283768057823,"New York Liberty",NA,75,78.6861372590065,176.5,91.6,88.4,3.5,"Over",1,-1.1,"Over",174.5,-2
+19587043804701,"spread","2023-08-18","Connecticut Sun",NA,75,93.0958089232445,"Dallas Wings",NA,95,94.2522111535072,-3.5,78.8,79.7,4.40000000000001,"Dallas Wings",1,1,"Dog",-4,0.5
+19587081620251,"spread","2023-08-18","Indiana Fever",NA,79,78.8306720852852,"Washington Mystics",NA,83,80.8394265174866,3.5,80.2,76.9,6.8,"Indiana Fever",1,-1.1,"Dog",5,-1.5
+19587125114391,"spread","2023-08-18","Phoenix Mercury",NA,63,81.8847882151604,"New York Liberty",NA,85,88.2148889303207,12.5,81.5,88.8,5.2,"Phoenix Mercury",1,-1.1,"Dog",12.5,0
+19588092409851,"spread","2023-08-19","Las Vegas Aces",NA,72,89.6772646903992,"Los Angeles Sparks",NA,78,66.5281147956848,-16.5,91.3,77.3,2.5,"Los Angeles Sparks",0,0,"Dog",-16.5,NA
+19588092409851,"total","2023-08-19","Las Vegas Aces",NA,72,89.6772646903992,"Los Angeles Sparks",NA,78,66.5281147956848,169.5,91.3,77.3,0.900000000000006,"Under",0,0,"Under",169.5,NA
+19589034604381,"spread","2023-08-20","Chicago Sky",NA,73,83.3141769170761,"Connecticut Sun",NA,79,75.0593861937523,6.5,78.3,82.9,1.89999999999999,"Chicago Sky",0,0,"Dog",5.5,NA
+19589034604381,"total","2023-08-20","Chicago Sky",NA,73,83.3141769170761,"Connecticut Sun",NA,79,75.0593861937523,160.5,78.3,82.9,0.699999999999989,"Over",0,0,"Over",160.5,NA
+19589047020251,"spread","2023-08-20","Washington Mystics",NA,84,81.3174709677696,"Dallas Wings",NA,97,86.7274873256683,5.5,77.8,83.6,0.299999999999997,"Dallas Wings",0,0,"Fav",5.5,NA
+19589047020251,"total","2023-08-20","Washington Mystics",NA,84,81.3174709677696,"Dallas Wings",NA,97,86.7274873256683,166,77.8,83.6,4.60000000000002,"Under",1,-1.1,"Under",165.5,0.5
+19589081614391,"spread","2023-08-20","Phoenix Mercury",NA,73,87.1889628171921,"Indiana Fever",NA,83,86.8131021857262,2.5,77.4,80.9,1,"Indiana Fever",0,0,"Fav",3.5,NA
+19589081614391,"total","2023-08-20","Phoenix Mercury",NA,73,87.1889628171921,"Indiana Fever",NA,83,86.8131021857262,160.5,77.4,80.9,2.19999999999999,"Under",0,0,"Under",161,NA
+19589113316321,"spread","2023-08-20","Minnesota Lynx",NA,74,88.3502268195152,"Seattle Storm",NA,88,92.2238425016403,-4.5,80.1,79.9,4.30000000000001,"Seattle Storm",1,1,"Dog",-5.5,1
+19589113316321,"total","2023-08-20","Minnesota Lynx",NA,74,88.3502268195152,"Seattle Storm",NA,88,92.2238425016403,160.5,80.1,79.9,0.5,"Under",0,0,"Under",159.5,NA
+19591009109241,"spread","2023-08-22","Atlanta Dream",NA,100,94.1871569156647,"Las Vegas Aces",NA,112,101.966073513031,15.5,74.4,94,4.09999999999999,"Las Vegas Aces",1,-1.1,"Fav",16.5,-1
+19591009109241,"total","2023-08-22","Atlanta Dream",NA,100,94.1871569156647,"Las Vegas Aces",NA,112,101.966073513031,168,74.4,94,0.400000000000006,"Over",0,0,"Over",166.5,NA
+19591034616321,"spread","2023-08-22","Chicago Sky",NA,102,95.1027899980545,"Seattle Storm",NA,79,90.905970454216,-2.5,79.3,81.6,4.8,"Seattle Storm",1,-1.1,"Dog",-4.5,2
+19591034616321,"total","2023-08-22","Chicago Sky",NA,102,95.1027899980545,"Seattle Storm",NA,79,90.905970454216,159.5,79.3,81.6,1.39999999999998,"Over",0,0,"Over",157.5,NA
+19591043820251,"spread","2023-08-22","Washington Mystics",NA,64,70.7069459557533,"Connecticut Sun",NA,68,72.6676600575447,5.5,78.2,78.7,5,"Washington Mystics",1,1,"Dog",4.5,1
+19591043820251,"total","2023-08-22","Washington Mystics",NA,64,70.7069459557533,"Connecticut Sun",NA,68,72.6676600575447,159.5,78.2,78.7,2.59999999999999,"Under",0,0,"Under",159.5,NA
+19591047011331,"spread","2023-08-22","Minnesota Lynx",NA,91,87.3206316232681,"Dallas Wings",NA,86,91.8579607009888,6.5,77.7,84.5,0.299999999999997,"Dallas Wings",0,0,"Fav",6.5,NA
+19591047011331,"total","2023-08-22","Minnesota Lynx",NA,91,87.3206316232681,"Dallas Wings",NA,86,91.8579607009888,169.5,77.7,84.5,7.30000000000001,"Under",1,-1.1,"Under",169.5,0
+19592098514391,"spread","2023-08-23","Los Angeles Sparks",NA,91,77.286670088768,"Phoenix Mercury",NA,62,73.7370023131371,-9.5,82.7,78.2,5,"Phoenix Mercury",1,-1.1,"Dog",-10.5,1
+19592098514391,"total","2023-08-23","Los Angeles Sparks",NA,91,77.286670088768,"Phoenix Mercury",NA,62,73.7370023131371,155.5,82.7,78.2,5.40000000000001,"Over",1,-1.1,"Over",154.5,-1
+19593034609241,"spread","2023-08-24","Chicago Sky",NA,87,85.4683361053467,"Las Vegas Aces",NA,94,93.5156410932541,14.5,84.2,97.2,1.5,"Chicago Sky",0,0,"Dog",14.5,NA
+19593034609241,"total","2023-08-24","Chicago Sky",NA,87,85.4683361053467,"Las Vegas Aces",NA,94,93.5156410932541,169,84.2,97.2,12.4,"Over",1,1,"Over",171,2
+19593043812511,"spread","2023-08-24","Connecticut Sun",NA,90,85.4956749081612,"New York Liberty",NA,95,103.598638296127,5.5,83.3,88,0.799999999999997,"Connecticut Sun",0,0,"Dog",6,NA
+19593043812511,"total","2023-08-24","Connecticut Sun",NA,90,85.4956749081612,"New York Liberty",NA,95,103.598638296127,163,83.3,88,8.30000000000001,"Over",1,1,"Over",165.5,2.5
+19593047011331,"spread","2023-08-24","Dallas Wings",NA,81,88.2263655364513,"Minnesota Lynx",NA,90,89.673230111599,-7.5,88.8,83.3,2,"Minnesota Lynx",0,0,"Dog",-6,NA
+19593047011331,"total","2023-08-24","Dallas Wings",NA,81,88.2263655364513,"Minnesota Lynx",NA,90,89.673230111599,168.5,88.8,83.3,3.59999999999999,"Over",1,1,"Over",166,-2.5
+19593081616321,"spread","2023-08-24","Indiana Fever",NA,90,95.2614344358444,"Seattle Storm",NA,86,90.6134573221207,-2.5,86.1,78,5.59999999999999,"Indiana Fever",1,1,"Fav",-4,1.5
+19593081616321,"total","2023-08-24","Indiana Fever",NA,90,95.2614344358444,"Seattle Storm",NA,86,90.6134573221207,161.5,86.1,78,2.59999999999999,"Over",0,0,"Over",160,NA
+19594009109851,"spread","2023-08-25","Atlanta Dream",NA,78,77.5573438405991,"Los Angeles Sparks",NA,83,83.0932215452194,2,80.3,84.6,2.3,"Los Angeles Sparks",0,0,"Fav",1.5,NA
+19594009109851,"total","2023-08-25","Atlanta Dream",NA,78,77.5573438405991,"Los Angeles Sparks",NA,83,83.0932215452194,162.5,80.3,84.6,2.39999999999998,"Over",0,0,"Over",160.5,NA
+19595092420251,"spread","2023-08-26","Washington Mystics",NA,78,84.6831500530243,"Las Vegas Aces",NA,62,83.5270523428917,10.5,81.4,92.8,0.899999999999991,"Las Vegas Aces",0,0,"Fav",10,NA
+19595092420251,"total","2023-08-26","Washington Mystics",NA,78,84.6831500530243,"Las Vegas Aces",NA,62,83.5270523428917,167.5,81.4,92.8,6.69999999999999,"Over",1,-1.1,"Over",170,2.5
+19595113312511,"spread","2023-08-26","Minnesota Lynx",NA,76,79.2972010970116,"New York Liberty",NA,111,94.533055126667,9,84.4,92.2,1.2,"Minnesota Lynx",0,0,"Dog",9,NA
+19595113312511,"total","2023-08-26","Minnesota Lynx",NA,76,79.2972010970116,"New York Liberty",NA,111,94.533055126667,167.5,84.4,92.2,9.10000000000002,"Over",1,1,"Over",166.5,-1
+19596009108161,"spread","2023-08-27","Indiana Fever",NA,83,84.5288542509079,"Atlanta Dream",NA,80,93.154065310955,-1.5,89.1,79.3,8.3,"Indiana Fever",1,1,"Fav",1,-2.5
+19596009108161,"total","2023-08-27","Indiana Fever",NA,83,84.5288542509079,"Atlanta Dream",NA,80,93.154065310955,165.5,89.1,79.3,2.89999999999998,"Over",0,0,"Over",165,NA
+19596034616321,"spread","2023-08-27","Seattle Storm",NA,85,85.4241214394569,"Chicago Sky",NA,90,88.8986461758614,1,85.1,84.5,1.59999999999999,"Seattle Storm",0,0,"Dog",1,NA
+19596034616321,"total","2023-08-27","Seattle Storm",NA,85,85.4241214394569,"Chicago Sky",NA,90,88.8986461758614,159.5,85.1,84.5,10.1,"Over",1,1,"Over",161.5,2
+19596043809851,"spread","2023-08-27","Connecticut Sun",NA,83,80.2094710469246,"Los Angeles Sparks",NA,68,77.9275728464127,-6,79.6,78,4.40000000000001,"Los Angeles Sparks",1,-1.1,"Dog",-6.5,0.5
+19596043809851,"total","2023-08-27","Connecticut Sun",NA,83,80.2094710469246,"Los Angeles Sparks",NA,68,77.9275728464127,157,79.6,78,0.599999999999994,"Over",0,0,"Over",156.5,NA
+19596047014391,"spread","2023-08-27","Phoenix Mercury",NA,74,70.1421718001366,"Dallas Wings",NA,77,88.3307746648788,8.5,80.7,92.3,3.09999999999999,"Dallas Wings",1,-1.1,"Fav",7.5,1
+19596047014391,"total","2023-08-27","Phoenix Mercury",NA,74,70.1421718001366,"Dallas Wings",NA,77,88.3307746648788,164.5,80.7,92.3,8.5,"Over",1,-1.1,"Over",163,-1.5
+19597092412511,"spread","2023-08-28","New York Liberty",NA,94,98.5702427625656,"Las Vegas Aces",NA,85,90.4078847765923,1,91.2,95.9,3.7,"Las Vegas Aces",1,-1.1,"Fav",-1.5,2.5
+19597092412511,"total","2023-08-28","New York Liberty",NA,94,98.5702427625656,"Las Vegas Aces",NA,85,90.4078847765923,173.5,91.2,95.9,13.6,"Over",1,1,"Over",174,0.5
+19598009114391,"spread","2023-08-29","Atlanta Dream",NA,94,83.2902284264565,"Phoenix Mercury",NA,76,67.6511578559875,-8.5,85.6,84.1,7,"Phoenix Mercury",1,-1.1,"Dog",-8.5,0
+19598009114391,"total","2023-08-29","Atlanta Dream",NA,94,83.2902284264565,"Phoenix Mercury",NA,76,67.6511578559875,160.5,85.6,84.1,9.19999999999999,"Over",1,1,"Over",159.5,-1
+19598034609851,"spread","2023-08-29","Los Angeles Sparks",NA,75,88.0919567346573,"Chicago Sky",NA,76,75.8586432337761,-3.5,84.7,81.7,0.5,"Chicago Sky",0,0,"Dog",-4.5,NA
+19598034609851,"total","2023-08-29","Los Angeles Sparks",NA,75,88.0919567346573,"Chicago Sky",NA,76,75.8586432337761,160.5,84.7,81.7,5.90000000000001,"Over",1,-1.1,"Over",161.5,1
+19598113320251,"spread","2023-08-29","Washington Mystics",NA,83,75.2212252616882,"Minnesota Lynx",NA,72,72.4174459576607,-6.5,83.2,80.4,3.7,"Minnesota Lynx",1,-1.1,"Dog",-7,0.5
+19598113320251,"total","2023-08-29","Washington Mystics",NA,83,75.2212252616882,"Minnesota Lynx",NA,72,72.4174459576607,164,83.2,80.4,0.399999999999977,"Under",0,0,"Under",161.5,NA
+19600043814391,"spread","2023-08-31","Connecticut Sun",NA,84,79.4666037559509,"Phoenix Mercury",NA,74,70.1855491399765,-12.5,85,77.6,5.09999999999999,"Phoenix Mercury",1,1,"Dog",-15,2.5
+19600043814391,"total","2023-08-31","Connecticut Sun",NA,84,79.4666037559509,"Phoenix Mercury",NA,74,70.1855491399765,156.5,85,77.6,6.09999999999999,"Over",1,1,"Over",154.5,-2
+19600092420251,"spread","2023-08-31","Las Vegas Aces",NA,84,82.30945956707,"Washington Mystics",NA,75,82.7222774624825,-10,93.7,80.5,3.2,"Las Vegas Aces",1,-1.1,"Fav",-10.5,0.5
+19600092420251,"total","2023-08-31","Las Vegas Aces",NA,84,82.30945956707,"Washington Mystics",NA,75,82.7222774624825,167.5,93.7,80.5,6.69999999999999,"Over",1,-1.1,"Over",168.5,1
+19600098516321,"spread","2023-08-31","Los Angeles Sparks",NA,61,76.8651665449142,"Seattle Storm",NA,72,76.2470355033875,-6.5,82.3,79.1,3.3,"Seattle Storm",1,1,"Dog",-6.5,0
+19600098516321,"total","2023-08-31","Los Angeles Sparks",NA,61,76.8651665449142,"Seattle Storm",NA,72,76.2470355033875,159.5,82.3,79.1,1.89999999999998,"Over",0,0,"Over",158.5,NA
+19601009111331,"spread","2023-09-01","Minnesota Lynx",NA,91,97.3729417920113,"Atlanta Dream",NA,85,100.995091080666,1.5,87.5,83,6,"Minnesota Lynx",1,1,"Dog",-1.5,3
+19601009111331,"total","2023-09-01","Minnesota Lynx",NA,91,97.3729417920113,"Atlanta Dream",NA,85,100.995091080666,165.5,87.5,83,5,"Over",1,1,"Over",164.5,-1
+19601043812511,"spread","2023-09-01","New York Liberty",NA,89,84.2649053931236,"Connecticut Sun",NA,58,76.749825835228,-8,88.8,80.4,0.399999999999991,"New York Liberty",0,0,"Fav",-7.5,NA
+19601043812511,"total","2023-09-01","New York Liberty",NA,89,84.2649053931236,"Connecticut Sun",NA,58,76.749825835228,164.5,88.8,80.4,4.69999999999999,"Over",1,-1.1,"Over",159.5,-5
+19601047008161,"spread","2023-09-01","Indiana Fever",NA,100,93.9610741138458,"Dallas Wings",NA,110,92.8920532464981,5.5,84.8,86.8,3.5,"Indiana Fever",1,-1.1,"Dog",4.5,1
+19601047008161,"total","2023-09-01","Indiana Fever",NA,100,93.9610741138458,"Dallas Wings",NA,110,92.8920532464981,168,84.8,86.8,3.59999999999999,"Over",1,1,"Over",169.5,1.5
+19602092416321,"spread","2023-09-02","Las Vegas Aces",NA,103,104.121927022934,"Seattle Storm",NA,77,81.8222434520721,-17,96.7,80.9,1.2,"Seattle Storm",0,0,"Dog",-19.5,NA
+19602092416321,"total","2023-09-02","Las Vegas Aces",NA,103,104.121927022934,"Seattle Storm",NA,77,81.8222434520721,169.5,96.7,80.9,8.10000000000002,"Over",1,1,"Over",170,0.5
+19603034612511,"spread","2023-09-03","Chicago Sky",NA,69,81.0999001860619,"New York Liberty",NA,86,85.8031442761421,8.5,85.4,93.7,0.200000000000003,"Chicago Sky",0,0,"Dog",8.5,NA
+19603034612511,"total","2023-09-03","Chicago Sky",NA,69,81.0999001860619,"New York Liberty",NA,86,85.8031442761421,163.5,85.4,93.7,15.6,"Over",1,-1.1,"Over",163.5,0
+19603047008161,"spread","2023-09-03","Dallas Wings",NA,84,97.1640436649323,"Indiana Fever",NA,97,96.2415273189545,-9.5,87.7,83.9,5.7,"Indiana Fever",1,1,"Dog",-9.5,0
+19603047008161,"total","2023-09-03","Dallas Wings",NA,84,97.1640436649323,"Indiana Fever",NA,97,96.2415273189545,169.5,87.7,83.9,2.10000000000002,"Over",0,0,"Over",170.5,NA
+19603098520251,"spread","2023-09-03","Los Angeles Sparks",NA,72,78.5883246660233,"Washington Mystics",NA,64,73.9888383746147,3.5,79.3,78.7,4.09999999999999,"Los Angeles Sparks",1,1,"Dog",2.5,1
+19603098520251,"total","2023-09-03","Los Angeles Sparks",NA,72,78.5883246660233,"Washington Mystics",NA,64,73.9888383746147,158.5,79.3,78.7,0.5,"Under",0,0,"Under",157.5,NA
+19603113314391,"spread","2023-09-03","Minnesota Lynx",NA,86,89.650846362114,"Phoenix Mercury",NA,73,85.3797271251678,-5.5,86.9,81.8,0.399999999999991,"Phoenix Mercury",0,0,"Dog",-8,NA
+19603113314391,"total","2023-09-03","Minnesota Lynx",NA,86,89.650846362114,"Phoenix Mercury",NA,73,85.3797271251678,160.5,86.9,81.8,8.19999999999999,"Over",1,-1.1,"Over",157,-3.5
+19605034608161,"spread","2023-09-05","Indiana Fever",NA,69,78.3351573944092,"Chicago Sky",NA,96,83.9869391918182,1.5,88.3,81.6,8.2,"Indiana Fever",1,-1.1,"Dog",-1,2.5
+19605034608161,"total","2023-09-05","Indiana Fever",NA,69,78.3351573944092,"Chicago Sky",NA,96,83.9869391918182,162,88.3,81.6,7.89999999999998,"Over",1,1,"Over",164.5,2.5
+19605043809851,"spread","2023-09-05","Connecticut Sun",NA,90,79.0411499738693,"Los Angeles Sparks",NA,76,76.5945390462875,-6.5,79.6,78,4.90000000000001,"Los Angeles Sparks",1,-1.1,"Dog",-10.5,4
+19605043809851,"total","2023-09-05","Connecticut Sun",NA,90,79.0411499738693,"Los Angeles Sparks",NA,76,76.5945390462875,157.5,79.6,78,0.0999999999999943,"Over",0,0,"Over",152.5,NA
+19605047012511,"spread","2023-09-05","Dallas Wings",NA,93,93.012803375721,"New York Liberty",NA,94,96.0704318284988,5.5,90.6,90.2,5.89999999999999,"Dallas Wings",1,1,"Dog",6.5,-1
+19605047012511,"total","2023-09-05","Dallas Wings",NA,93,93.012803375721,"New York Liberty",NA,94,96.0704318284988,171.5,90.6,90.2,9.30000000000001,"Over",1,1,"Over",172.5,1
+19605143920251,"spread","2023-09-05","Phoenix Mercury",NA,77,79.1738018989563,"Washington Mystics",NA,100,74.8186126351357,6.5,78.8,84.1,1.2,"Phoenix Mercury",0,0,"Dog",7,NA
+19605143920251,"total","2023-09-05","Phoenix Mercury",NA,77,79.1738018989563,"Washington Mystics",NA,100,74.8186126351357,155,78.8,84.1,7.89999999999998,"Over",1,1,"Over",153.5,-1.5
+19606009116321,"spread","2023-09-06","Atlanta Dream",NA,79,81.558024,"Seattle Storm",NA,68,76.971918,-8.5,83.1,85.1,10.5,"Seattle Storm",1,-1.1,"Dog",-9,0.5
+19606009116321,"total","2023-09-06","Atlanta Dream",NA,79,81.558024,"Seattle Storm",NA,68,76.971918,163.5,83.1,85.1,4.69999999999999,"Over",1,-1.1,"Over",163.5,0
+19607098512511,"spread","2023-09-07","New York Liberty",NA,96,83.502506,"Los Angeles Sparks",NA,89,83.71341,-12.5,89.4,81.5,4.59999999999999,"Los Angeles Sparks",1,1,"Dog",-15.5,3
+19607098512511,"total","2023-09-07","New York Liberty",NA,96,83.502506,"Los Angeles Sparks",NA,89,83.71341,159.5,89.4,81.5,11.4,"Over",1,1,"Over",160.5,1
+19608009120251,"spread","2023-09-08","Washington Mystics",NA,75,81.551587,"Atlanta Dream",NA,80,87.329339,-5.5,85.6,79.2,0.899999999999991,"Washington Mystics",0,0,"Fav",-5.5,NA
+19608009120251,"total","2023-09-08","Washington Mystics",NA,75,81.551587,"Atlanta Dream",NA,80,87.329339,162.5,85.6,79.2,2.30000000000001,"Over",0,0,"Over",162,NA
+19608034611331,"spread","2023-09-08","Chicago Sky",NA,92,87.439904,"Minnesota Lynx",NA,87,81.881484,-4.5,86.2,85.8,4.09999999999999,"Minnesota Lynx",1,-1.1,"Dog",-4.5,0
+19608034611331,"total","2023-09-08","Chicago Sky",NA,92,87.439904,"Minnesota Lynx",NA,87,81.881484,163.5,86.2,85.8,8.5,"Over",1,1,"Over",165,1.5
+19608043808161,"spread","2023-09-08","Connecticut Sun",NA,76,72.577127,"Indiana Fever",NA,59,76.249152,-10,79.5,81.7,12.2,"Indiana Fever",1,-1.1,"Dog",-10,0
+19608043808161,"total","2023-09-08","Connecticut Sun",NA,76,72.577127,"Indiana Fever",NA,59,76.249152,159.5,79.5,81.7,1.69999999999999,"Over",0,0,"Over",160.5,NA
+19608047016321,"spread","2023-09-08","Dallas Wings",NA,106,90.27673,"Seattle Storm",NA,91,87.343274,-10.5,90.6,80.7,0.600000000000009,"Seattle Storm",0,0,"Dog",-11.5,NA
+19608047016321,"total","2023-09-08","Dallas Wings",NA,106,90.27673,"Seattle Storm",NA,91,87.343274,167.5,90.6,80.7,3.80000000000001,"Over",1,1,"Over",168.5,1
+19608092414391,"spread","2023-09-08","Phoenix Mercury",NA,73,89.94457,"Las Vegas Aces",NA,94,86.836977,18.5,80.8,98.4,0.899999999999991,"Phoenix Mercury",0,0,"Dog",19.5,NA
+19608092414391,"total","2023-09-08","Phoenix Mercury",NA,73,89.94457,"Las Vegas Aces",NA,94,86.836977,165,80.8,98.4,14.2,"Over",1,1,"Over",164.5,-0.5
+19610009104701,"spread","2023-09-10","Atlanta Dream",NA,77,85.949545,"Dallas Wings",NA,94,86.72173,-1.5,81.9,92.9,12.5,"Dallas Wings",1,1,"Dog",-1.5,0
+19610009104701,"total","2023-09-10","Atlanta Dream",NA,77,85.949545,"Dallas Wings",NA,94,86.72173,171.5,81.9,92.9,3.30000000000001,"Over",1,-1.1,"Over",171.5,0
+19610034604381,"spread","2023-09-10","Connecticut Sun",NA,91,98.591787,"Chicago Sky",NA,102,86.006534,-9.5,84.8,81.1,5.8,"Chicago Sky",1,1,"Dog",-9.5,0
+19610034604381,"total","2023-09-10","Connecticut Sun",NA,91,98.591787,"Chicago Sky",NA,102,86.006534,161.5,84.8,81.1,4.39999999999998,"Over",1,1,"Over",158.5,-3
+19610081611331,"spread","2023-09-10","Indiana Fever",NA,87,89.36928,"Minnesota Lynx",NA,72,81.65543,2.5,86.8,80.6,8.7,"Indiana Fever",1,1,"Dog",2.5,0
+19610081611331,"total","2023-09-10","Indiana Fever",NA,87,89.36928,"Minnesota Lynx",NA,72,81.65543,163.5,86.8,80.6,3.89999999999998,"Over",1,-1.1,"Over",164.5,1
+19610092414391,"spread","2023-09-10","Las Vegas Aces",NA,100,89.061822,"Phoenix Mercury",NA,85,77.539457,-18.5,99.3,79.9,0.899999999999991,"Las Vegas Aces",0,0,"Fav",-20.5,NA
+19610092414391,"total","2023-09-10","Las Vegas Aces",NA,100,89.061822,"Phoenix Mercury",NA,85,77.539457,165.5,99.3,79.9,13.7,"Over",1,1,"Over",165.5,0
+19610125120251,"spread","2023-09-10","New York Liberty",NA,88,92.340838,"Washington Mystics",NA,90,80.242403,-9.5,89.2,81.5,1.8,"Washington Mystics",0,0,"Dog",-10,NA
+19610125120251,"total","2023-09-10","New York Liberty",NA,88,92.340838,"Washington Mystics",NA,90,80.242403,163.5,89.2,81.5,7.19999999999999,"Over",1,1,"Over",162.5,-1
