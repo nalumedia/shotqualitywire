@@ -1,80 +1,76 @@
 import React, { useState, useEffect } from 'react';
+import { Link, useParams } from 'react-router-dom';
 import client from './Contentful';
-import { Link } from 'react-router-dom';
-import { useParams } from 'react-router-dom';
+import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 
-function extractTextFromRichText(richText) {
-    if (!richText || !richText.content) return '';
-    let text = '';
-    richText.content.forEach(item => {
-        if (item.nodeType === 'text') {
-            text += item.value;
-        } else if (item.content) {
-            text += extractTextFromRichText(item);
-        }
-    });
-    return text;
-}
+const WinningMetricDetails = () => {
+  const { id } = useParams();
+  const [metricDetails, setMetricDetails] = useState(null);
+  const [otherMetrics, setOtherMetrics] = useState([]);
+  // Placeholder for related blogs
+  const [relatedBlogs, setRelatedBlogs] = useState([]);
 
-function AuthorPosts() {
-    const [posts, setPosts] = useState([]);
-    const { authorId } = useParams();
+  useEffect(() => {
+    // Fetch details for the current metric
+    client.getEntry(id)
+      .then((entry) => {
+        setMetricDetails(entry);
+      })
+      .catch(console.error);
 
-    useEffect(() => {
-        client.getEntries({
-            content_type: 'blog',
-            order: '-fields.published',
-            'fields.blogAuthor.sys.id': authorId,
-            'fields.targetSite': 'ShotQualityWire'  // Adding this line to filter by targetSite
-        })
-        .then(response => {
-            setPosts(response.items);
-        })
-        .catch(console.error);
-    }, [authorId]);
+    // Fetch other random metrics for the sidebar
+    client.getEntries({ 'content_type': 'metric', 'limit': 5 })
+      .then((response) => {
+        setOtherMetrics(response.items);
+      })
+      .catch(console.error);
 
-    const author = posts[0]?.fields.blogAuthor;
+    // Fetch related blogs (Placeholder, replace with your actual logic)
+    setRelatedBlogs([
+      { title: "Blog 1", id: 1 },
+      { title: "Blog 2", id: 2 }
+    ]);
+  }, [id]);
 
-    return (
-        <div>
-            {author && (
-                <div className="d-flex align-items-center mb-4">
-                    <img
-                        src={author.fields.authorImage.fields.file.url}
-                        alt={author.fields.name}
-                        style={{ width: '80px', height: '80px', borderRadius: '50%', marginRight: '20px' }}
-                    />
-                    <div>
-                        <h2>{author.fields.name}</h2>
-                        <p>{extractTextFromRichText(author.fields.authorBio)}</p>
-                    </div>
-                </div>
-            )}
+  if (!metricDetails) {
+    return <p>Loading...</p>;
+  }
 
-            <div className="row">
-                {posts.map(post => (
-                    <div key={post.sys.id} className="col-md-4 mb-5">
-                        <div className="card">
-                            <Link to={post.fields.postUrl}>
-                                {post.fields.postImage &&
-                                    <img
-                                        src={post.fields.postImage.fields.file.url}
-                                        alt={post.fields.postImage.fields.description || ''}
-                                        className="card-img-top"
-                                    />
-                                }
-                            </Link>
-                            <div className="card-body">
-                                <Link to={post.fields.postUrl} className="text-decoration-none text-dark">
-                                    <h5 className="card-title">{post.fields.title}</h5>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                ))}
-            </div>
+  const mapTargetSitesToLinks = (targetSites) => {
+    // Your existing code for mapping target sites to links
+  };
+
+  return (
+    <div className="container mt-5">
+      <div className="sidebar">
+        <h2>Other Metrics You Might Like</h2>
+        <ul>
+          {otherMetrics.map((metric) => (
+            <li key={metric.sys.id}>
+              <Link to={`/winningmetrics/${metric.sys.id}`}>{metric.fields.metricName}</Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="main-content">
+        <Link to="/winningmetricsglossary">← Back to Winning Metrics Glossary</Link>
+        <h1>{metricDetails.fields.metricName}</h1>
+        <div className="metric-details">
+          {documentToReactComponents(metricDetails.fields.longDefinition)}
         </div>
-    );
-}
+        {metricDetails.fields.targetSite && <p><strong>See on:</strong> {mapTargetSitesToLinks(metricDetails.fields.targetSite)}</p>}
+        {metricDetails.fields.targetPage && <p><strong>Used On:</strong> {metricDetails.fields.targetPage.join(', ')}</p>}
+      </div>
+      <div className="related-blogs">
+        <h2>Blogs That Talk About This</h2>
+        {relatedBlogs.map((blog) => (
+          <div className="blog-card" key={blog.id}>
+            <Link to={`/blogs/${blog.id}`}>{blog.title}</Link>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
-export default AuthorPosts;
+export default WinningMetricDetails;
