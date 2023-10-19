@@ -35,16 +35,16 @@ const WinningMetricDetails = () => {
       <Link to="/winningmetricsglossary">← Back to Winning Metrics Glossary</Link>
       <h1>{metricDetails.fields.metricName}</h1>
       <div className="metric-details">
-        <h3>Definition:</h3>
+        <h3>Short Definition:</h3>
         {documentToReactComponents(metricDetails.fields.definition)}
+        <hr />
+        <h3>Long Definition:</h3>
+        {documentToReactComponents(metricDetails.fields.longDefinition)}
+        <hr />
+        <h3>Technical Definition:</h3>
+        {documentToReactComponents(metricDetails.fields.technicalDefinition)}
+        <hr />
       </div>
-      {/* Add this block to render Long Definition */}
-      {metricDetails.fields.longDefinition && (
-        <div className="metric-details">
-          <h3>Long Definition:</h3>
-          {documentToReactComponents(metricDetails.fields.longDefinition)}
-        </div>
-      )}
       {metricDetails.fields.targetSite && <p><strong>See on:</strong> {mapTargetSitesToLinks(metricDetails.fields.targetSite)}</p>}
       {metricDetails.fields.targetPage && <p><strong>Used On:</strong> {metricDetails.fields.targetPage.join(', ')}</p>}
     </div>

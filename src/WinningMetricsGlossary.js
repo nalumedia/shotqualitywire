@@ -21,13 +21,18 @@ const WinningMetricsGlossary = () => {
   }, []);
 
   const filteredMetrics = winningMetrics.filter((metric) => {
-    const metricName = metric.fields.metricName.toLowerCase();
-    const definitionText = JSON.stringify(metric.fields.definition).toLowerCase();
+    // Check if 'metricName' or 'definition' fields are undefined, and if so, provide a default value
+    const metricName = metric.fields.metricName ? metric.fields.metricName.toLowerCase() : '';
+    const definition = metric.fields.definition ? metric.fields.definition : { nodeType: '', content: [{ value: 'Short definition needed', nodeType: '' }] };
+    const definitionText = JSON.stringify(definition).toLowerCase();
+  
     return (
       metricName.includes(searchTerm.toLowerCase()) ||
       definitionText.includes(searchTerm.toLowerCase())
     );
   });
+  
+  
 
   const mapTargetSiteToURL = (targetSite) => {
     const urlMap = {
@@ -63,7 +68,9 @@ const WinningMetricsGlossary = () => {
               <div className="card-body">
               <h5><Link to={`/winningmetric/${metric.sys.id}`} className="card-title">{metric.fields.metricName}</Link></h5>
                 <div className="card-text">
-                  {documentToReactComponents(metric.fields.definition)}
+                {metric.fields.definition 
+                  ? documentToReactComponents(metric.fields.definition) 
+                  : 'Short definition needed'}
                 </div>
                 {metric.fields.targetSite && (
                   <p><strong>See on:</strong> 
